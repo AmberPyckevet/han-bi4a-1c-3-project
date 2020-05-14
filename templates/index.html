@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <meta name="author" content="name">
+    <meta name="description" content="description here">
+    <meta name="keywords" content="keywords,here">
+    <link rel="stylesheet" href="static/semantic.css" type="text/css">
+    <link rel="stylesheet" href="static/style.css" type="text/css">
+</head>
+<body>
+<div class="ui fixed menu">
+    <div class="ui container">
+        <h1 class="header item">
+            Header
+        </h1>
+    </div>
+</div>
+<div class="ui main text container segment">
+    <h1 class="ui header">Filters</h1>
+    <div class="ui container segment">
+        <form class="ui form">
+            <div class="ui grid">
+                <div class="ui four column grid">
+                    <div class="row">
+                        <div class="column">
+                            <div class="inline field">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" name="evalue">
+                                    <label>Filter e-value</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="field">
+                                <label>Min e-value:</label>
+                                <input type="text" placeholder="Min e-value">
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="field">
+                                <label>Max e-value:</label>
+                                <input type="text" placeholder="Max e-value">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="ui dividing header">Search database</h4>
+            <div class="inline fields">
+                <div class="ten wide field">
+                    <label>Search:</label>
+                    <input type="text" placeholder="Enter search query...">
+                </div>
+                <div class="two wide field">
+                    <div class="ui radio checkbox">
+                        <input type="radio" name="filter-radio"
+                               checked="checked">
+                        <label>Organism</label>
+                    </div>
+                </div>
+                <div class="two wide field">
+                    <div class="ui radio checkbox">
+                        <input type="radio" name="filter-radio">
+                        <label>Protein</label>
+                    </div>
+                </div>
+                <div class="one wide field">
+                    <div class="ui submit button">Submit</div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <h1 class="ui header">Results</h1>
+    <div class="ui container segment">
+        Result 1
+    </div>
+    <div class="ui container segment">
+        Result 2
+    </div>
+    <div class="ui container segment">
+        Result 3
+    </div>
+</div>
+</body>
+</html>
