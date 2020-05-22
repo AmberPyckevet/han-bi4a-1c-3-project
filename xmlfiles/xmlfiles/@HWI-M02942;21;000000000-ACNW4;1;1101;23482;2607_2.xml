@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_48545</BlastOutput_query-ID>
+  <BlastOutput_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:23482:2607_2</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_48545</Iteration_query-ID>
+  <Iteration_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:23482:2607_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_116807583.1|</Hit_id>
+  <Hit_def>ammonium transporter [Steroidobacter cummioxidans]</Hit_def>
+  <Hit_accession>WP_116807583</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>1.05812e-43</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>208</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>CYVPMVHMVWSGDGALMWDWGVLDFAGGTVVHINAGIAGLVAALVLGKRQGYGTAIMAPHNLPLSMVAAATLWIGWFGFTPGRAWAAGTSAGRARRAAR</Hsp_qseq>
+      <Hsp_hseq>CYAPMVHMVWSGDGALMWDWGVLDFAGGTVVHINAGIAGLVAALLLGKRKGYGTVSMAPHNLGLTMIGGAILWVGWFGFNAGSAVAAGSSAGMAMLVTQ</Hsp_hseq>
+      <Hsp_midline>CY PMVHMVWSGDGALMWDWGVLDFAGGTVVHINAGIAGLVAAL+LGKR+GYGT  MAPHNL L+M+  A LW+GWFGF  G A AAG+SAG A    +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MBQ13014.1|</Hit_id>
+  <Hit_def>ammonia channel protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBQ13014</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>7.86513e-40</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>CYVPMVHMVWSGDGALMWDWGVLDFAGGTVVHINAGIAGLVAALVLGKRQGYGTAIMAPHNLPLSMVAAATLWIGWFGFTPGRAWAAGTSAGRARRAAR</Hsp_qseq>
+      <Hsp_hseq>CYVPMVHMVWSGDGGLLWDWGVIDFAGGTVVHINAGIAGLVAAVMLGKRKGYPTTAMPPHNLTYTIIGAALLWVGWFGFNAGSAVAAGGSAGMAMLVTQ</Hsp_hseq>
+      <Hsp_midline>CYVPMVHMVWSGDG L+WDWGV+DFAGGTVVHINAGIAGLVAA++LGKR+GY T  M PHNL  +++ AA LW+GWFGF  G A AAG SAG A    +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>tpg|HAJ75161.1|</Hit_id>
+  <Hit_def>ammonia channel protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>HAJ75161</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.54466e-39</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>CYVPMVHMVWSGDGALMWDWGVLDFAGGTVVHINAGIAGLVAALVLGKRQGYGTAIMAPHNLPLSMVAAATLWIGWFGFTPGRAWAAGTSAGRARRAAR</Hsp_qseq>
+      <Hsp_hseq>CYVPMVHMVWAGDGGLMWDWGVIDFAGGTVVHINAGIAGLVAAIMLGKRRGYPTTAMPPHNLTYTIIGAALLWVGWFGFNAGSAVSAGGSAGMAMLVTQ</Hsp_hseq>
+      <Hsp_midline>CYVPMVHMVW+GDG LMWDWGV+DFAGGTVVHINAGIAGLVAA++LGKR+GY T  M PHNL  +++ AA LW+GWFGF  G A +AG SAG A    +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MBT72335.1|</Hit_id>
+  <Hit_def>ammonia channel protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBT72335</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.79035e-39</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>CYVPMVHMVWSGDGALMWDWGVLDFAGGTVVHINAGIAGLVAALVLGKRQGYGTAIMAPHNLPLSMVAAATLWIGWFGFTPGRAWAAGTSAGRARRAAR</Hsp_qseq>
+      <Hsp_hseq>CYVPMVHMVWAGDGGLMWDWGVIDFAGGTVVHINAGIAGLVAAIMLGKRRGYPTTAMPPHNLTYTIIGAALLWVGWFGFNAGSAVSAGGSAGMAMLVTQ</Hsp_hseq>
+      <Hsp_midline>CYVPMVHMVW+GDG LMWDWGV+DFAGGTVVHINAGIAGLVAA++LGKR+GY T  M PHNL  +++ AA LW+GWFGF  G A +AG SAG A    +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|RKZ50025.1|</Hit_id>
+  <Hit_def>ammonia channel protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>RKZ50025</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>3.36707e-39</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>CYVPMVHMVWSGDGALMWDWGVLDFAGGTVVHINAGIAGLVAALVLGKRQGYGTAIMAPHNLPLSMVAAATLWIGWFGFTPGRAWAAGTSAGRARRAAR</Hsp_qseq>
+      <Hsp_hseq>CYVPMVHMVWSGDGALMWDWGVIDFAGGTVVHINAGIAGLVAAVMLGKRKGFPTTAMPPHNLTYTIIGAAMLWVGWFGFNAGSAVAANGTAGMAMLVTQ</Hsp_hseq>
+      <Hsp_midline>CYVPMVHMVWSGDGALMWDWGV+DFAGGTVVHINAGIAGLVAA++LGKR+G+ T  M PHNL  +++ AA LW+GWFGF  G A AA  +AG A    +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|AMN48327.1|</Hit_id>
+  <Hit_def>ammonia channel protein [Steroidobacter denitrificans]</Hit_def>
+  <Hit_accession>AMN48327</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>3.78555e-38</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>164</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CYVPMVHMVWSGDGALMWDWGVLDFAGGTVVHINAGIAGLVAALVLGKRQGYGTAIMAPHNLPLSMVAAATLWIGWFGFT</Hsp_qseq>
+      <Hsp_hseq>CYAPMAHMVWSGDGALMWDWGVLDFAGGTVVHINAGVAGLVAALVLGNRNGYGTTIMAPHNLGLTMIGGAMLWVGWFGFN</Hsp_hseq>
+      <Hsp_midline>CY PM HMVWSGDGALMWDWGVLDFAGGTVVHINAG+AGLVAALVLG R GYGT IMAPHNL L+M+  A LW+GWFGF </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_083537309.1|</Hit_id>
+  <Hit_def>ammonium transporter [Steroidobacter denitrificans]</Hit_def>
+  <Hit_accession>WP_083537309</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>1.46389e-37</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>206</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>CYVPMVHMVWSGDGALMWDWGVLDFAGGTVVHINAGIAGLVAALVLGKRQGYGTAIMAPHNLPLSMVAAATLWIGWFGF</Hsp_qseq>
+      <Hsp_hseq>CYAPMAHMVWSGDGALMWDWGVLDFAGGTVVHINAGVAGLVAALVLGNRNGYGTTIMAPHNLGLTMIGGAMLWVGWFGF</Hsp_hseq>
+      <Hsp_midline>CY PM HMVWSGDGALMWDWGVLDFAGGTVVHINAG+AGLVAALVLG R GYGT IMAPHNL L+M+  A LW+GWFGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_134482385.1|</Hit_id>
+  <Hit_def>ammonium transporter, partial [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134482385</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>5.59039e-34</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>YVPMVHMVWSGDGALMWDWGVLDFAGGTVVHINAGIAGLVAALVLGKRQGYGTAIMAPHNLPLSMVAAATLWIGWF</Hsp_qseq>
+      <Hsp_hseq>YAPIAHMVWSGDGALMWDWGVLDFAGGTVVHINAGIAGLVACLVLGKRKGYPTTPMAPHNLGYTLVGAAMLWIGWF</Hsp_hseq>
+      <Hsp_midline>Y P+ HMVWSGDGALMWDWGVLDFAGGTVVHINAGIAGLVA LVLGKR+GY T  MAPHNL  ++V AA LWIGWF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_134540570.1|</Hit_id>
+  <Hit_def>ammonium transporter, partial [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134540570</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.0065e-33</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>CYVPMVHMVWSGDGALMWDWGVLDFAGGTVVHINAGIAGLVAALVLGKRQGYGTAIMAPHNLPLSMVAAATLWIGWF</Hsp_qseq>
+      <Hsp_hseq>VYAPIAHMVWSGDGALMWDWGVLDFAGGTVVHINAGIAGLVACLVLGKRKGYPTTPMAPHNLGYTLVGAAMLWIGWF</Hsp_hseq>
+      <Hsp_midline> Y P+ HMVWSGDGALMWDWGVLDFAGGTVVHINAGIAGLVA LVLGKR+GY T  MAPHNL  ++V AA LWIGWF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_146234739.1|</Hit_id>
+  <Hit_def>ammonium transporter, partial [Pseudomonas aeruginosa] &gt;gb|PXZ88616.1| ammonia channel protein, partial [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_146234739</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.02291e-33</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>CYVPMVHMVWSGDGALMWDWGVLDFAGGTVVHINAGIAGLVAALVLGKRQGYGTAIMAPHNLPLSMVAAATLWIGWF</Hsp_qseq>
+      <Hsp_hseq>VYAPIAHMVWSGDGALMWDWGVLDFAGGTVVHINAGIAGLVACLVLGKRKGYPTTPMAPHNLGYTLVGAAMLWIGWF</Hsp_hseq>
+      <Hsp_midline> Y P+ HMVWSGDGALMWDWGVLDFAGGTVVHINAGIAGLVA LVLGKR+GY T  MAPHNL  ++V AA LWIGWF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>285796324</Statistics_db-num>
+      <Statistics_db-len>102865278292</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

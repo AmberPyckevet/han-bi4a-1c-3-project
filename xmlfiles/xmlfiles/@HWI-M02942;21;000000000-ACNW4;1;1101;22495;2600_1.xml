@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_48173</BlastOutput_query-ID>
+  <BlastOutput_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:22495:2600_1</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_48173</Iteration_query-ID>
+  <Iteration_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:22495:2600_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_069314475.1|</Hit_id>
+  <Hit_def>hypothetical protein [Piscirickettsia litoralis] &gt;gb|ODN41076.1| hypothetical protein BGC07_18185 [Piscirickettsia litoralis]</Hit_def>
+  <Hit_accession>WP_069314475</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.00293977</Hsp_evalue>
+      <Hsp_query-from>103</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>VIIQTSTTEPSYEQTVTLDGRVVRFAFDWNARQRRWKVHIYDAASGDPIRLGMTLVDGWPINRRVR</Hsp_qseq>
+      <Hsp_hseq>IEIPLSSKLPNYTQTTSLEGTAYQFDVRWNTRDETWRISIAD-TDGNPILSGLKLLPYSPLIQRYK</Hsp_hseq>
+      <Hsp_midline>+ I  S+  P+Y QT +L+G   +F   WN R   W++ I D   G+PI  G+ L+   P+ +R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_155069092.1|</Hit_id>
+  <Hit_def>hypothetical protein [Piscirickettsia salmonis] &gt;gb|QGP52527.1| hypothetical protein PsalN5692_04036 [Piscirickettsia salmonis]</Hit_def>
+  <Hit_accession>WP_155069092</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.0155306</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>MTVIIQTSTTEPSYEQTVTLDGRVVRFAFDWNARQRRWKVHIYDAASGDPIRLGMTLVDGWPINRRVR</Hsp_qseq>
+      <Hsp_hseq>MAEIIPLNSTYSNYTETVSLEGTAYIFTVRWNTREETWRISIAD-TDGNAILSGLKLLPYSPLVQRYK</Hsp_hseq>
+      <Hsp_midline>M  II  ++T  +Y +TV+L+G    F   WN R+  W++ I D   G+ I  G+ L+   P+ +R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|NIQ91017.1|</Hit_id>
+  <Hit_def>hypothetical protein [Deltaproteobacteria bacterium] &gt;gb|NIY14220.1| hypothetical protein [Nitrospinaceae bacterium]</Hit_def>
+  <Hit_accession>NIQ91017</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.0167094</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>MTVIIQTSTTEPSYEQTVTLDGRVVRFAFDWNARQRRWKVHIYDAASGDPIRLGMTLVDGWPINRRV</Hsp_qseq>
+      <Hsp_hseq>LIIPITNAGALGNFYFNIALEGSTYQLRFNWNAREGFWYFDIYDLES-NPIRTGSKIVVNYPLNWRC</Hsp_hseq>
+      <Hsp_midline>+ + I  +    ++   + L+G   +  F+WNAR+  W   IYD  S +PIR G  +V  +P+N R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_064004372.1|</Hit_id>
+  <Hit_def>hypothetical protein [Piscirickettsiaceae bacterium NZ-RLO1] &gt;gb|OAJ35360.1| hypothetical protein A0O36_00425 [Piscirickettsiaceae bacterium NZ-RLO1]</Hit_def>
+  <Hit_accession>WP_064004372</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.0190496</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>MTVIIQTSTTEPSYEQTVTLDGRVVRFAFDWNARQRRWKVHIYDAASGDPIRLGMTLVDGWPINRRVR</Hsp_qseq>
+      <Hsp_hseq>MAEIIRLNSTYSNYTETVSLEGTAYIFTMRWNTRDETWRISIAD-TDGNAILSGLKLLPYSPLVQRYK</Hsp_hseq>
+      <Hsp_midline>M  II+ ++T  +Y +TV+L+G    F   WN R   W++ I D   G+ I  G+ L+   P+ +R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_069314319.1|</Hit_id>
+  <Hit_def>hypothetical protein [Piscirickettsia litoralis] &gt;gb|ODN41182.1| hypothetical protein BGC07_17365 [Piscirickettsia litoralis]</Hit_def>
+  <Hit_accession>WP_069314319</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.0345973</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>IQTSTTEPSYEQTVTLDGRVVRFAFDWNARQRRWKVHIYDAASGDPIRLGMTLVDGWPINRRVR</Hsp_qseq>
+      <Hsp_hseq>IPLSSKLPNYTQTTSLEGTAYKFDVRWNTRDETWRISIAD-TDGNAILSGLKLLPYSPLIQRYK</Hsp_hseq>
+      <Hsp_midline>I  S+  P+Y QT +L+G   +F   WN R   W++ I D   G+ I  G+ L+   P+ +R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|NIR31652.1|</Hit_id>
+  <Hit_def>hypothetical protein [Gammaproteobacteria bacterium] &gt;gb|NIR85150.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;gb|NIU06199.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;gb|NIX87472.1| hypothetical protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>NIR31652</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.090074</Hsp_evalue>
+      <Hsp_query-from>130</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>PSYEQTVTLDGRVVRFAFDWNARQRRWKVHIYDAASGDPIRLGMTLVDGWPINR</Hsp_qseq>
+      <Hsp_hseq>PAWRQRTSLDGTTFELDFAWNERESAWYLTVRD-VEGEPLRGAIRLVIDWPLLR</Hsp_hseq>
+      <Hsp_midline>P++ Q  +LDG      F WN R+  W + + D   G+P+R  + LV  WP+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>285796324</Statistics_db-num>
+      <Statistics_db-len>102865278292</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

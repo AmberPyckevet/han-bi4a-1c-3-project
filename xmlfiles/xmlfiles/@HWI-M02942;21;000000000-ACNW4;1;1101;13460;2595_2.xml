@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_12057</BlastOutput_query-ID>
+  <BlastOutput_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:13460:2595_2</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_12057</Iteration_query-ID>
+  <Iteration_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:13460:2595_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|PZM90608.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>PZM90608</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>8.4588e-43</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>VAATAARLAWGEPRPFDVGRVHFHDLEGRPLTRHFANVASFGISGVIDGYVNQMRKSLGGKLSFILGSIKGLATYRDSLCRFRLDDGPWE</Hsp_qseq>
+      <Hsp_hseq>VEATAARLARGTPRPFDVGRVQFEDLEGKPCTRHFANVASFGISGVIDGYVNQMRKSIGGRLAFMLGSLKGLYRYHDRVCRFRIDEGPWQ</Hsp_hseq>
+      <Hsp_midline>V ATAARLA G PRPFDVGRV F DLEG+P TRHFANVASFGISGVIDGYVNQMRKS+GG+L+F+LGS+KGL  Y D +CRFR+D+GPW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_050724424.1|</Hit_id>
+  <Hit_def>diacylglycerol kinase family lipid kinase [Vulgatibacter incomptus] &gt;gb|AKU89908.1| Transcription regulator [Vulgatibacter incomptus]</Hit_def>
+  <Hit_accession>WP_050724424</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>4.96361e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AATAARLAWGEPRPFDVGRVHFHDLEGRPLTRHFANVASFGISGVIDGYVNQMRKSLGGKLSFILGSIKGLATYRDSLCRFRLDDGPWE</Hsp_qseq>
+      <Hsp_hseq>ASIGARLAAGRRRQLDVGLVTYERDDGRLERRYFANVASFGTSGLVDRYVNRATKVLGGKASFTIGAVRGLLAYEDRRCRVRFDDGPWE</Hsp_hseq>
+      <Hsp_midline>A+  ARLA G  R  DVG V +   +GR   R+FANVASFG SG++D YVN+  K LGGK SF +G+++GL  Y D  CR R DDGPWE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MAQ13525.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Sandaracinus sp.]</Hit_def>
+  <Hit_accession>MAQ13525</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>7.7383e-21</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>VAATAARLAWGEPRPFDVGRVHFHDLEGRPLTRHFANVASFGISGVIDGYVNQMRKSLGGKLSFILGSIKGLATYRDSLCRFRLDDG</Hsp_qseq>
+      <Hsp_hseq>TAAMATRLVTTEPRPLDVGWITFVDHQGRPAQRAFLNVASFGIGGMVDRLVNESPKWVGGRAAFFMGTLRALTKYRNRLVRFRVDDG</Hsp_hseq>
+      <Hsp_midline> AA A RL   EPRP DVG + F D +GRP  R F NVASFGI G++D  VN+  K +GG+ +F +G+++ L  YR+ L RFR+DDG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_120208943.1|</Hit_id>
+  <Hit_def>YegS/Rv2252/BmrU family lipid kinase [Corallococcus sp. H22C18031201] &gt;gb|RJS18834.1| diacylglycerol kinase family lipid kinase [Corallococcus sp. H22C18031201]</Hit_def>
+  <Hit_accession>WP_120208943</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.21598e-20</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>RLAWGEPRPFDVGRVHFHDLEGRPLTRHFANVASFGISGVIDGYVNQMRKSLGGKLSFILGSIKGLATYRDSLCRFRLDDGPWE</Hsp_qseq>
+      <Hsp_hseq>RLRTDKTEPFDVGRIDFTNNEGQPETRYFANIASFGVSGLVAKEVNQSSKALGGNLSFVWGTVKGLVKYSDRKVRLSVDGGPAE</Hsp_hseq>
+      <Hsp_midline>RL   +  PFDVGR+ F + EG+P TR+FAN+ASFG+SG++   VNQ  K+LGG LSF+ G++KGL  Y D   R  +D GP E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_140799097.1|</Hit_id>
+  <Hit_def>YegS/Rv2252/BmrU family lipid kinase [Myxococcus xanthus] &gt;gb|QDE69646.1| transcriptional regulator [Myxococcus xanthus] &gt;gb|QDE76924.1| transcriptional regulator [Myxococcus xanthus] &gt;gb|QDE84312.1| transcriptional regulator [Myxococcus xanthus]</Hit_def>
+  <Hit_accession>WP_140799097</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>5.19321e-20</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>VAATAARLAWGEPRPFDVGRVHFHDLEGRPLTRHFANVASFGISGVIDGYVNQMRKSLGGKLSFILGSIKGLATYRDSLCRFRLDDGPWE</Hsp_qseq>
+      <Hsp_hseq>LASSLERLRSGTTEPFDVGRLEFIDNAGQPATRYFANIASFGVSAVVAQEVNQSSKALGGHLSFMWGTLKGLVKYSERQVRLSVDGGPEE</Hsp_hseq>
+      <Hsp_midline>+A++  RL  G   PFDVGR+ F D  G+P TR+FAN+ASFG+S V+   VNQ  K+LGG LSF+ G++KGL  Y +   R  +D GP E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_140793456.1|</Hit_id>
+  <Hit_def>YegS/Rv2252/BmrU family lipid kinase [Myxococcus xanthus] &gt;gb|QDE98483.1| transcriptional regulator [Myxococcus xanthus] &gt;gb|QDF06179.1| transcriptional regulator [Myxococcus xanthus]</Hit_def>
+  <Hit_accession>WP_140793456</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>5.30294e-20</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>VAATAARLAWGEPRPFDVGRVHFHDLEGRPLTRHFANVASFGISGVIDGYVNQMRKSLGGKLSFILGSIKGLATYRDSLCRFRLDDGPWE</Hsp_qseq>
+      <Hsp_hseq>LASSLERLRSGTTEPFDVGRLEFIDNAGQPATRYFANIASFGVSAVVAQEVNQSSKALGGHLSFMWGTLKGLVKYSERQVRLSVDGGPEE</Hsp_hseq>
+      <Hsp_midline>+A++  RL  G   PFDVGR+ F D  G+P TR+FAN+ASFG+S V+   VNQ  K+LGG LSF+ G++KGL  Y +   R  +D GP E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_011554674.1|</Hit_id>
+  <Hit_def>MULTISPECIES: YegS/Rv2252/BmrU family lipid kinase [Myxococcus] &gt;gb|ABF88943.1| conserved hypothetical protein TIGR00147 [Myxococcus xanthus DK 1622] &gt;emb|SDX48468.1| lipid kinase, YegS/Rv2252/BmrU family [Myxococcus xanthus]</Hit_def>
+  <Hit_accession>WP_011554674</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.13712e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>VAATAARLAWGEPRPFDVGRVHFHDLEGRPLTRHFANVASFGISGVIDGYVNQMRKSLGGKLSFILGSIKGLATYRDSLCRFRLDDGPWE</Hsp_qseq>
+      <Hsp_hseq>LASSLERLRSGTTEPFDVGQLEFIDNAGQPATRYFANIASFGVSAVVAQEVNQSSKALGGHLSFVWGTLKGLVKYSERQVRLSVDGGPEE</Hsp_hseq>
+      <Hsp_midline>+A++  RL  G   PFDVG++ F D  G+P TR+FAN+ASFG+S V+   VNQ  K+LGG LSF+ G++KGL  Y +   R  +D GP E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_140864300.1|</Hit_id>
+  <Hit_def>YegS/Rv2252/BmrU family lipid kinase [Myxococcus xanthus] &gt;gb|QDE91438.1| transcriptional regulator [Myxococcus xanthus]</Hit_def>
+  <Hit_accession>WP_140864300</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.16113e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>VAATAARLAWGEPRPFDVGRVHFHDLEGRPLTRHFANVASFGISGVIDGYVNQMRKSLGGKLSFILGSIKGLATYRDSLCRFRLDDGPWE</Hsp_qseq>
+      <Hsp_hseq>LASSLERLRSGTTEPFDVGQLEFIDNAGQPATRYFANIASFGVSAVVAQEVNQSSKALGGHLSFVWGTLKGLVKYSERQVRLSVDGGPEE</Hsp_hseq>
+      <Hsp_midline>+A++  RL  G   PFDVG++ F D  G+P TR+FAN+ASFG+S V+   VNQ  K+LGG LSF+ G++KGL  Y +   R  +D GP E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_002613214.1|</Hit_id>
+  <Hit_def>diacylglycerol kinase family lipid kinase [Stigmatella aurantiaca] &gt;gb|ADO73253.1| conserved uncharacterized protein [Stigmatella aurantiaca DW4/3-1] &gt;gb|EAU67240.1| conserved hypothetical protein [Stigmatella aurantiaca DW4/3-1]</Hit_def>
+  <Hit_accession>WP_002613214</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.28488e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ARLAWGEPRPFDVGRVHFHDLEGRPLTRHFANVASFGISGVIDGYVNQMRKSLGGKLSFILGSIKGLATYRDSLCRFRLDDGPWE</Hsp_qseq>
+      <Hsp_hseq>ARLSSGETEPFDVGLIEYVNHEGKPEQRYFANIASFGVSAVVAHEVNKSSKALGGNLSFVWGTVKGLIKYSAPVVRFRADAGTQE</Hsp_hseq>
+      <Hsp_midline>ARL+ GE  PFDVG + + + EG+P  R+FAN+ASFG+S V+   VN+  K+LGG LSF+ G++KGL  Y   + RFR D G  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_141257152.1|</Hit_id>
+  <Hit_def>MULTISPECIES: YegS/Rv2252/BmrU family lipid kinase [unclassified Myxococcus]</Hit_def>
+  <Hit_accession>WP_141257152</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>1.57181e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>VAATAARLAWGEPRPFDVGRVHFHDLEGRPLTRHFANVASFGISGVIDGYVNQMRKSLGGKLSFILGSIKGLATYRDSLCRFRLDDGPWE</Hsp_qseq>
+      <Hsp_hseq>LASSLERLRSGTTEPFDVGQLEFIDSAGQPATRYFANIASFGVSAVVAQEVNQSSKALGGHLSFMWGTLKGLVKYSERQVRLSVDGGPEE</Hsp_hseq>
+      <Hsp_midline>+A++  RL  G   PFDVG++ F D  G+P TR+FAN+ASFG+S V+   VNQ  K+LGG LSF+ G++KGL  Y +   R  +D GP E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>285796324</Statistics_db-num>
+      <Statistics_db-len>102865278292</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

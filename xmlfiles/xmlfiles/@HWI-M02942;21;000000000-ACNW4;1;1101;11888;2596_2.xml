@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_60419</BlastOutput_query-ID>
+  <BlastOutput_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:11888:2596_2</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_60419</Iteration_query-ID>
+  <Iteration_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:11888:2596_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_039054394.1|</Hit_id>
+  <Hit_def>lipocalin-like domain-containing protein [Sphingobacterium sp. T2]</Hit_def>
+  <Hit_accession>WP_039054394</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>2.90268e-66</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DGFMSVQIAVNTSSRYENEDRFSVSDSDLAARAKQYIAFSGTYTIDSEYSRVTYNIITSLHPNWEGEKQVRKMDFEKDIMYQKSVDPVLSGGQFVHVYM</Hsp_qseq>
+      <Hsp_hseq>DGFMSVQIAVNTSSRYENEDRFSVSDSDLAARAKQYIAFSGTYTIDSEYSRVTYNIITSLHPNWEGEKQVRKMDFEKDIMYQKSVDPVLSGGQFVHVYM</Hsp_hseq>
+      <Hsp_midline>DGFMSVQIAVNTSSRYENEDRFSVSDSDLAARAKQYIAFSGTYTIDSEYSRVTYNIITSLHPNWEGEKQVRKMDFEKDIMYQKSVDPVLSGGQFVHVYM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_149914676.1|</Hit_id>
+  <Hit_def>MULTISPECIES: lipocalin-like domain-containing protein [Sphingobacterium]</Hit_def>
+  <Hit_accession>WP_149914676</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>5.54199e-38</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DGFMSVQIAVNTSSRYENEDRFSVSDSDLAARAKQYIAFSGTYTIDSEYSRVTYNIITSLHPNWEGEKQVRKMDFEKDIMYQKSVDPVLSGGQFVHVYM</Hsp_qseq>
+      <Hsp_hseq>DGYMSVQISVKNPLKYDSEDRFSATDDRIAARSKEYIAFTGKYKTDNVLSHVIYNIETALNPNWEGVKQVRKLDFEGDILYQKSVEPISSNGQMVHAYM</Hsp_hseq>
+      <Hsp_midline>DG+MSVQI+V    +Y++EDRFS +D  +AAR+K+YIAF+G Y  D+  S V YNI T+L+PNWEG KQVRK+DFE DI+YQKSV+P+ S GQ VH YM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_165291474.1|</Hit_id>
+  <Hit_def>lipocalin-like domain-containing protein [Sphingobacterium sp. SGL-16] &gt;gb|NGM73644.1| lipocalin-like domain-containing protein [Sphingobacterium sp. SGL-16]</Hit_def>
+  <Hit_accession>WP_165291474</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>9.26035e-38</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DGFMSVQIAVNTSSRYENEDRFSVSDSDLAARAKQYIAFSGTYTIDSEYSRVTYNIITSLHPNWEGEKQVRKMDFEKDIMYQKSVDPVLSGGQFVHVYM</Hsp_qseq>
+      <Hsp_hseq>DGYMSVQISVKNPVKYNTDDRYSVTDELIASRAKEYIGFTGKYTVDNVLCNVIYHIETSLNPNWEGLKQVRKMDFEADILYQKSVEPIISNGQKVHAYM</Hsp_hseq>
+      <Hsp_midline>DG+MSVQI+V    +Y  +DR+SV+D  +A+RAK+YI F+G YT+D+    V Y+I TSL+PNWEG KQVRKMDFE DI+YQKSV+P++S GQ VH YM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_159637977.1|</Hit_id>
+  <Hit_def>lipocalin-like domain-containing protein [Sphingobacterium composti Ten et al. 2007 non Yoo et al. 2007]</Hit_def>
+  <Hit_accession>WP_159637977</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>1.45327e-35</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DGFMSVQIAVNTSSRYENEDRFSVSDSDLAARAKQYIAFSGTYTIDSEYSRVTYNIITSLHPNWEGEKQVRKMDFEKDIMYQKSVDPVLSGGQFVHVYM</Hsp_qseq>
+      <Hsp_hseq>DGYMSVQISVKNPIKFDTEDRLSQTDEKIAARSKKYIAFTGKYSIDNVLCHVIYHIDTSLNPNWEGITQVRKLDFEADILYQKSVEPISSNGQMVHAYM</Hsp_hseq>
+      <Hsp_midline>DG+MSVQI+V    +++ EDR S +D  +AAR+K+YIAF+G Y+ID+    V Y+I TSL+PNWEG  QVRK+DFE DI+YQKSV+P+ S GQ VH YM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_132776992.1|</Hit_id>
+  <Hit_def>lipocalin-like domain-containing protein [Sphingobacterium alimentarium] &gt;gb|TCV18794.1| lipocalin-like protein [Sphingobacterium alimentarium]</Hit_def>
+  <Hit_accession>WP_132776992</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>8.51711e-35</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DGFMSVQIAVNTSSRYENEDRFSVSDSDLAARAKQYIAFSGTYTIDSEYSRVTYNIITSLHPNWEGEKQVRKMDFEKDIMYQKSVDPVLSGGQFVHVYM</Hsp_qseq>
+      <Hsp_hseq>DGYMSVQLSVKNPVKYNSEDRFADTDEKMATRAKEYIAFTGKYTVNDMLAQVNYHIETSLNPNWEGVTQVRKLDFEGDILYQKSLEPIASNGQMVYAYM</Hsp_hseq>
+      <Hsp_midline>DG+MSVQ++V    +Y +EDRF+ +D  +A RAK+YIAF+G YT++   ++V Y+I TSL+PNWEG  QVRK+DFE DI+YQKS++P+ S GQ V+ YM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_136821759.1|</Hit_id>
+  <Hit_def>lipocalin-like domain-containing protein [Sphingobacterium alkalisoli] &gt;gb|TJY63767.1| lipocalin-like domain-containing protein [Sphingobacterium alkalisoli]</Hit_def>
+  <Hit_accession>WP_136821759</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>2.3199e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DGFMSVQIAVNTSSRYENEDRFSVSDSDLAARAKQYIAFSGTYTIDSEYSRVTYNIITSLHPNWEGEKQVRKMDFEKDIMYQKSVDPVLSGGQFVHVYM</Hsp_qseq>
+      <Hsp_hseq>DGHMSVQISASQEQKYISGDRMNATEVELSERMRGYIAFSGKYTVDNKAASVSYSIQTSLFPNWEGGKQLRKIDFEGDILYQKSFDPILSDGRLVHSYI</Hsp_hseq>
+      <Hsp_midline>DG MSVQI+ +   +Y + DR + ++ +L+ R + YIAFSG YT+D++ + V+Y+I TSL PNWEG KQ+RK+DFE DI+YQKS DP+LS G+ VH Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_136902450.1|</Hit_id>
+  <Hit_def>lipocalin-like domain-containing protein [Sphingobacterium olei] &gt;gb|TJZ53658.1| lipocalin-like domain-containing protein [Sphingobacterium olei]</Hit_def>
+  <Hit_accession>WP_136902450</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>3.34889e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DGFMSVQIAVNTSSRYENEDRFSVSDSDLAARAKQYIAFSGTYTIDSEYSRVTYNIITSLHPNWEGEKQVRKMDFEKDIMYQKSVDPVLSGGQFVHVYM</Hsp_qseq>
+      <Hsp_hseq>DGHMSVQISASREHTYVSGDRMNATEDELTERMRGYIAFSGKYNVDNKAASVLYSIQTSLFPNWEGGKQLRKIDFEGDVLYQKSVDPILSDGRLVHSYI</Hsp_hseq>
+      <Hsp_midline>DG MSVQI+ +    Y + DR + ++ +L  R + YIAFSG Y +D++ + V Y+I TSL PNWEG KQ+RK+DFE D++YQKSVDP+LS G+ VH Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_164113012.1|</Hit_id>
+  <Hit_def>MULTISPECIES: lipocalin-like domain-containing protein [unclassified Sphingobacterium]</Hit_def>
+  <Hit_accession>WP_164113012</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>6.65198e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DGFMSVQIAVNTSSRYENEDRFSVSDSDLAARAKQYIAFSGTYTIDSEYSRVTYNIITSLHPNWEGEKQVRKMDFEKDIMYQKSVDPVLSGGQFVHVYM</Hsp_qseq>
+      <Hsp_hseq>DGYMAVQISGSDAIKYISEDRMQASFDELDRRVRGYIAFSGRYTVDNRNAHVVYDITNSLFPNWEDSQQIRKLDFEGDVLFQKSLEPICSGGQIVHAYM</Hsp_hseq>
+      <Hsp_midline>DG+M+VQI+ + + +Y +EDR   S  +L  R + YIAFSG YT+D+  + V Y+I  SL PNWE  +Q+RK+DFE D+++QKS++P+ SGGQ VH YM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_140938975.1|</Hit_id>
+  <Hit_def>lipocalin-like domain-containing protein [Sphingobacterium sp. 1.3611]</Hit_def>
+  <Hit_accession>WP_140938975</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>2.20427e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DGFMSVQIAVNTSSRYENEDRFSVSDSDLAARAKQYIAFSGTYTIDSEYSRVTYNIITSLHPNWEGEKQVRKMDFEKDIMYQKSVDPVLSGGQFVHVYM</Hsp_qseq>
+      <Hsp_hseq>DGHMSVQISGSQVQKYVSGDRMNATEIEMAERMRGYIAFSGKYNVDNKAASVMYTIQTSLFPNWEGGEQLRKIDFEGDILYQKSLDPILASGRLVHSYI</Hsp_hseq>
+      <Hsp_midline>DG MSVQI+ +   +Y + DR + ++ ++A R + YIAFSG Y +D++ + V Y I TSL PNWEG +Q+RK+DFE DI+YQKS+DP+L+ G+ VH Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_164126922.1|</Hit_id>
+  <Hit_def>lipocalin-like domain-containing protein [Sphingobacterium sp. xlx-73]</Hit_def>
+  <Hit_accession>WP_164126922</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>3.48256e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DGFMSVQIAVNTSSRYENEDRFSVSDSDLAARAKQYIAFSGTYTIDSEYSRVTYNIITSLHPNWEGEKQVRKMDFEKDIMYQKSVDPVLSGGQFVHVYM</Hsp_qseq>
+      <Hsp_hseq>DGYMAVQISGSDAINYISEDRMQASFDELDRRVRGYIAFSGRYTVDNRNAHVVYDITNSLFPNWEDSQQIRKLDFEGDVLFQKSLEPICSGGQIVHSYM</Hsp_hseq>
+      <Hsp_midline>DG+M+VQI+ + +  Y +EDR   S  +L  R + YIAFSG YT+D+  + V Y+I  SL PNWE  +Q+RK+DFE D+++QKS++P+ SGGQ VH YM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>285904213</Statistics_db-num>
+      <Statistics_db-len>102865278292</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

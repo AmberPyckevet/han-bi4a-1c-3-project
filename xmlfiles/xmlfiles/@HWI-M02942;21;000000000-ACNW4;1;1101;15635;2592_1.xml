@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_49317</BlastOutput_query-ID>
+  <BlastOutput_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:15635:2592_1</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_49317</Iteration_query-ID>
+  <Iteration_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:15635:2592_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_144230736.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rariglobus hedericola] &gt;gb|TSJ76915.1| hypothetical protein FPL22_12415 [Rariglobus hedericola]</Hit_def>
+  <Hit_accession>WP_144230736</Hit_accession>
+  <Hit_len>1112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>1.0063e-13</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>1045</Hsp_hit-from>
+      <Hsp_hit-to>1112</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>RSDTFLIRFYGDVRDPIDGRIRARAYGEARVQRCPVPVDARGEKTWEDWSRADTPLGRQFRVVSFRWLRAEDV</Hsp_qseq>
+      <Hsp_hseq>RSDTFLVRTYGEVINPITGTVDATAWGEATVQRFPETVD-----SGDDISQPNQPFGRRFKIISFRWLSSADI</Hsp_hseq>
+      <Hsp_midline>RSDTFL+R YG+V +PI G + A A+GEA VQR P  VD     + +D S+ + P GR+F+++SFRWL + D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_125068231.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [unclassified Opitutaceae] &gt;gb|RRK01507.1| hypothetical protein Ga0100231_001555 [Opitutaceae bacterium TAV4] &gt;gb|RRK01583.1| hypothetical protein Ga0100230_006955 [Opitutaceae bacterium TAV3]</Hit_def>
+  <Hit_accession>WP_125068231</Hit_accession>
+  <Hit_len>985</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>8.06123e-12</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>906</Hsp_hit-from>
+      <Hsp_hit-to>985</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>RSDTFLIRFYGDVRDPIDGRIRARAYGEARVQRCP-VPVDARGEKTWEDWSRADTP--------LGRQFRVVSFRWLRAEDV</Hsp_qseq>
+      <Hsp_hseq>RSDTFLVRAYGDVRNPITEEITSRAWCEATVQRVPDLTKPSSGSYSTDD--ELDPPYTASTKYKLGRQFKIVSFRWLTTDEI</Hsp_hseq>
+      <Hsp_midline>RSDTFL+R YGDVR+PI   I +RA+ EA VQR P +   + G  + +D    D P        LGRQF++VSFRWL  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_046297064.1|</Hit_id>
+  <Hit_def>hypothetical protein [Verrucomicrobia bacterium IMCC26134] &gt;gb|AKC81674.1| hypothetical protein IMCC26134_00775 [Verrucomicrobia bacterium IMCC26134]</Hit_def>
+  <Hit_accession>WP_046297064</Hit_accession>
+  <Hit_len>1094</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>8.67097e-12</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>1020</Hsp_hit-from>
+      <Hsp_hit-to>1094</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>RSDTFLIRFYGDVRDPIDGRIRARAYGEARVQRCPV--PVDARGEKTWEDWSRADTPLGRQFRVVSFRWLRAEDV</Hsp_qseq>
+      <Hsp_hseq>RSDTFTIRAYGDVVNPVSGAVEARAWVEATVQRTPVKHPTSATPGNNMKTTGSAAGNFGRQFKVISMRWLGSDEI</Hsp_hseq>
+      <Hsp_midline>RSDTF IR YGDV +P+ G + ARA+ EA VQR PV  P  A      +    A    GRQF+V+S RWL ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|NDC74053.1|</Hit_id>
+  <Hit_def>hypothetical protein [bacterium]</Hit_def>
+  <Hit_accession>NDC74053</Hit_accession>
+  <Hit_len>623</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>2.17722e-11</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>552</Hsp_hit-from>
+      <Hsp_hit-to>623</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>RSDTFLIRFYGDVRDPIDGRIRARAYGEARVQRCPVPVDARGEKTWEDWSRADTPLGRQFRVVSFRWLRAEDV</Hsp_qseq>
+      <Hsp_hseq>RSDTFLIRTYGDSQNPVTGVVEGRVWGEAVVQRVPEPVGLISPNLAEQLSPTGK-FGRKFKIVSFRWLTRDDL</Hsp_hseq>
+      <Hsp_midline>RSDTFLIR YGD ++P+ G +  R +GEA VQR P PV        E  S      GR+F++VSFRWL  +D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBT61945.1|</Hit_id>
+  <Hit_def>hypothetical protein [Puniceicoccaceae bacterium] &gt;tpg|HBR95448.1| hypothetical protein [Opitutae bacterium]</Hit_def>
+  <Hit_accession>MBT61945</Hit_accession>
+  <Hit_len>1207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>7.05826e-11</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>1131</Hsp_hit-from>
+      <Hsp_hit-to>1207</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>RSDTFLIRFYGDVRDPIDGRIRARAYGEARVQRCPVPVD----ARGEKTWEDWSRADTPLGRQFRVVSFRWLRAEDV</Hsp_qseq>
+      <Hsp_hseq>RSDTFTIRSYGDVVNPVTNQVTGRVWCEAKVQRVPSPVKNDEVAVDADPMDEWIQPSSSFGRQFKIISFTWLDPEQI</Hsp_hseq>
+      <Hsp_midline>RSDTF IR YGDV +P+  ++  R + EA+VQR P PV     A      ++W +  +  GRQF+++SF WL  E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_035613162.1|</Hit_id>
+  <Hit_def>hypothetical protein [Haloferula sp. BvORR071]</Hit_def>
+  <Hit_accession>WP_035613162</Hit_accession>
+  <Hit_len>1157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>9.16456e-11</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>1086</Hsp_hit-from>
+      <Hsp_hit-to>1157</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>RSDTFLIRFYGDVRDPIDGRIRARAYGEARVQRCPVPVDARGEKTWEDWSRADTPLGRQFRVVSFRWLRAEDV</Hsp_qseq>
+      <Hsp_hseq>RSDTFKIRAYGEARDP-DGKVTARAWCEAVVQRVPDYVDSADSPELVATQPANVAFGRRFQTVSFRWMNQDEV</Hsp_hseq>
+      <Hsp_midline>RSDTF IR YG+ RDP DG++ ARA+ EA VQR P  VD+           A+   GR+F+ VSFRW+  ++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_035602765.1|</Hit_id>
+  <Hit_def>hypothetical protein [Haloferula sp. BvORR071]</Hit_def>
+  <Hit_accession>WP_035602765</Hit_accession>
+  <Hit_len>1150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>2.42546e-10</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>1079</Hsp_hit-from>
+      <Hsp_hit-to>1150</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>RSDTFLIRFYGDVRDPIDGRIRARAYGEARVQRCPVPVDARGEKTWEDWSRADTPLGRQFRVVSFRWLRAEDV</Hsp_qseq>
+      <Hsp_hseq>RSDTFKIRAYGEARDP-DGKVTARAWCEAVVQRYPDYVDSADAPELVATQPANIAFGRRFQTVSFRWMNQDEV</Hsp_hseq>
+      <Hsp_midline>RSDTF IR YG+ RDP DG++ ARA+ EA VQR P  VD+           A+   GR+F+ VSFRW+  ++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_144230203.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rariglobus hedericola] &gt;gb|TSJ79662.1| hypothetical protein FPL22_10355 [Rariglobus hedericola]</Hit_def>
+  <Hit_accession>WP_144230203</Hit_accession>
+  <Hit_len>1140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>2.7517e-10</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>1068</Hsp_hit-from>
+      <Hsp_hit-to>1140</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>RSDTFLIRFYGDVRDPIDGRIRARAYGEARVQRCPVPVDARGEKTWEDWSRADTPLGRQFRVVSFRWLRAEDV</Hsp_qseq>
+      <Hsp_hseq>RSDTFTIRAYGDVQNPATNAIEGRAWCEAVVQRLPDYMETQDAWTLPTTGTNNDKFGRRFRIVSFRWLTSNDI</Hsp_hseq>
+      <Hsp_midline>RSDTF IR YGDV++P    I  RA+ EA VQR P  ++ +   T       +   GR+FR+VSFRWL + D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>tpg|HBR93505.1|</Hit_id>
+  <Hit_def>hypothetical protein [Opitutae bacterium]</Hit_def>
+  <Hit_accession>HBR93505</Hit_accession>
+  <Hit_len>1036</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>2.82144e-10</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>960</Hsp_hit-from>
+      <Hsp_hit-to>1036</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>RSDTFLIRFYGDVRDPIDGRIRARAYGEARVQRCPV---PVDARGEKTWEDWSRADTP-LGRQFRVVSFRWLRAEDV</Hsp_qseq>
+      <Hsp_hseq>RSDTFCVRTYGDVRNPVNSTVEARVWCEAVVQRLPDYVRPESVGGDEAYEVASHADNQRFGRQYKIISIRWLNEDEI</Hsp_hseq>
+      <Hsp_midline>RSDTF +R YGDVR+P++  + AR + EA VQR P    P    G++ +E  S AD    GRQ++++S RWL  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MBT64812.1|</Hit_id>
+  <Hit_def>hypothetical protein [Puniceicoccaceae bacterium]</Hit_def>
+  <Hit_accession>MBT64812</Hit_accession>
+  <Hit_len>1033</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>2.96178e-10</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>957</Hsp_hit-from>
+      <Hsp_hit-to>1033</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>RSDTFLIRFYGDVRDPIDGRIRARAYGEARVQRCPV---PVDARGEKTWEDWSRADTP-LGRQFRVVSFRWLRAEDV</Hsp_qseq>
+      <Hsp_hseq>RSDTFCVRTYGDVRNPVNSTVEARVWCEAVVQRLPDYVRPESVGGDEAYEVASHADNQRFGRQYKIISIRWLNEDEI</Hsp_hseq>
+      <Hsp_midline>RSDTF +R YGDVR+P++  + AR + EA VQR P    P    G++ +E  S AD    GRQ++++S RWL  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>285796324</Statistics_db-num>
+      <Statistics_db-len>102865278292</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

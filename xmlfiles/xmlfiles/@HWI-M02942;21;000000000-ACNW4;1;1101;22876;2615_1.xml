@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_40225</BlastOutput_query-ID>
+  <BlastOutput_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:22876:2615_1</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_40225</Iteration_query-ID>
+  <Iteration_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:22876:2615_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|RYY31049.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit beta [Chitinophagaceae bacterium]</Hit_def>
+  <Hit_accession>RYY31049</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>4.96533e-38</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>FAVSNDDLRPAMNGVYMEMEDEGLLFVATDAHKLVRYKRTDVGTQSTNSVILPKKPLNILKSILPDTQEEITAGFNEKHFFIELKNIRMSFRLIDARFPD</Hsp_qseq>
+      <Hsp_hseq>FAVSNDDLRPAMTGVFFEMDKKGIQFVATDAHRLVRYKRTDVSCPRTESLIVPKKPLNLLKAALPDNEDELTVSYNSNHLFVKHGTTQMSCRLIDARFPD</Hsp_hseq>
+      <Hsp_midline>FAVSNDDLRPAM GV+ EM+ +G+ FVATDAH+LVRYKRTDV    T S+I+PKKPLN+LK+ LPD ++E+T  +N  H F++    +MS RLIDARFPD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_130542282.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit beta [Pseudobacter ginsenosidimutans] &gt;gb|QEC41411.1| DNA polymerase III subunit beta [Pseudobacter ginsenosidimutans] &gt;gb|RZS71808.1| DNA polymerase III beta subunit [Pseudobacter ginsenosidimutans]</Hit_def>
+  <Hit_accession>WP_130542282</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>1.28079e-37</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>FAVSNDDLRPAMNGVYMEMEDEGLLFVATDAHKLVRYKRTDVGTQSTNSVILPKKPLNILKSILPDTQEEITAGFNEKHFFIELKNIRMSFRLIDARFPD</Hsp_qseq>
+      <Hsp_hseq>FAVSNDDLRPAMTGVYFEMDKKGLQFVATDAHRLVRYKRTDVACPKADSLIVPKKPLNLLKSAMPDNDDELVINYNSNHLFVKHGTTQMSCRLIDARFPD</Hsp_hseq>
+      <Hsp_midline>FAVSNDDLRPAM GVY EM+ +GL FVATDAH+LVRYKRTDV     +S+I+PKKPLN+LKS +PD  +E+   +N  H F++    +MS RLIDARFPD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|OJW57314.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit beta [Sphingobacteriales bacterium 50-39]</Hit_def>
+  <Hit_accession>OJW57314</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.428</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>1.83923e-37</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>FAVSNDDLRPAMNGVYMEMEDEGLLFVATDAHKLVRYKRTDVGTQSTNSVILPKKPLNILKSILPDTQEEITAGFNEKHFFIELKNIRMSFRLIDARFPD</Hsp_qseq>
+      <Hsp_hseq>FAVSNDDLRPAMTGVYFEMDKKGLQFVATDAHRLVRYKRKDVSCPKNDSLIVPKKPLNLLKSALPSNEDEITISYNSNHLFVSHGTTQMSCRLIDARFPD</Hsp_hseq>
+      <Hsp_midline>FAVSNDDLRPAM GVY EM+ +GL FVATDAH+LVRYKR DV     +S+I+PKKPLN+LKS LP  ++EIT  +N  H F+     +MS RLIDARFPD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|ODT35336.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit beta [Niabella sp. SCN 42-15] &gt;gb|OJU24524.1| DNA polymerase III subunit beta [Sphingobacteriales bacterium 41-5]</Hit_def>
+  <Hit_accession>ODT35336</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>2.11212e-37</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>FAVSNDDLRPAMNGVYMEMEDEGLLFVATDAHKLVRYKRTDVGTQSTNSVILPKKPLNILKSILPDTQEEITAGFNEKHFFIELKNIRMSFRLIDARFPD</Hsp_qseq>
+      <Hsp_hseq>FATSSDDLRPAMTGVFFEFDGKGIQFVATDAHRLVRYKRTDVSSPGTDSFIVPRKPLNLLKSVLPDNEDEITLNYNNNHFFVQHGESKMSCRLIDARFPD</Hsp_hseq>
+      <Hsp_midline>FA S+DDLRPAM GV+ E + +G+ FVATDAH+LVRYKRTDV +  T+S I+P+KPLN+LKS+LPD ++EIT  +N  HFF++    +MS RLIDARFPD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_127132655.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit beta [Pseudoflavitalea rhizosphaerae]</Hit_def>
+  <Hit_accession>WP_127132655</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>6.45413e-37</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>FAVSNDDLRPAMNGVYMEMEDEGLLFVATDAHKLVRYKRTDVGTQSTNSVILPKKPLNILKSILPDTQEEITAGFNEKHFFIELKNIRMSFRLIDARFPD</Hsp_qseq>
+      <Hsp_hseq>FAVSNDDLRPAMTGVYFEMDKKGLQFVATDAHRLVRYKRTEVACPKADSLIVPKKPLNLLKSAMPDNDDELVINYNSNHLFVKHGTTQMSCRLIDARFPD</Hsp_hseq>
+      <Hsp_midline>FAVSNDDLRPAM GVY EM+ +GL FVATDAH+LVRYKRT+V     +S+I+PKKPLN+LKS +PD  +E+   +N  H F++    +MS RLIDARFPD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_018626815.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit beta [Niabella aurantiaca]</Hit_def>
+  <Hit_accession>WP_018626815</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>9.66791e-37</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>FAVSNDDLRPAMNGVYMEMEDEGLLFVATDAHKLVRYKRTDVGTQSTNSVILPKKPLNILKSILPDTQEEITAGFNEKHFFIELKNIRMSFRLIDARFPD</Hsp_qseq>
+      <Hsp_hseq>FATSTDDLRPAMTGVYFELDKKGIQFVATDAHRLVRYKRTDVSSPNTDTFIVPRKPLNLLKSALPDNEDEITINYNTNHFFVIHGTTQMSCRLIDARFPD</Hsp_hseq>
+      <Hsp_midline>FA S DDLRPAM GVY E++ +G+ FVATDAH+LVRYKRTDV + +T++ I+P+KPLN+LKS LPD ++EIT  +N  HFF+     +MS RLIDARFPD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|RYY39840.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit beta [Chitinophagaceae bacterium]</Hit_def>
+  <Hit_accession>RYY39840</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>1.33001e-36</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>FAVSNDDLRPAMNGVYMEMEDEGLLFVATDAHKLVRYKRTDVGTQSTNSVILPKKPLNILKSILPDTQEEITAGFNEKHFFIELKNIRMSFRLIDARFPD</Hsp_qseq>
+      <Hsp_hseq>FAVSNDDLRPAMTGVYFELSKDYIQFVATDAHRLVRYKRTDVSCPRTDSFIVPRKPLNLLKSALPDNEDELTVSYNSNHLFVKHGTTQMSCRLIDARFPD</Hsp_hseq>
+      <Hsp_midline>FAVSNDDLRPAM GVY E+  + + FVATDAH+LVRYKRTDV    T+S I+P+KPLN+LKS LPD ++E+T  +N  H F++    +MS RLIDARFPD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_169423815.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit beta [Pseudoflavitalea sp. G-6-1-2] &gt;gb|NML19990.1| DNA polymerase III subunit beta [Pseudoflavitalea sp. G-6-1-2]</Hit_def>
+  <Hit_accession>WP_169423815</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>1.40261e-36</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>FAVSNDDLRPAMNGVYMEMEDEGLLFVATDAHKLVRYKRTDVGTQSTNSVILPKKPLNILKSILPDTQEEITAGFNEKHFFIELKNIRMSFRLIDARFPD</Hsp_qseq>
+      <Hsp_hseq>FAVSSDDLRPAMTGVYFEMDKKGLQFVATDAHRLVRYKRIDVSCPKTDSLIVPKKPLNLLKSAMPDNDDELVINYNSNHLFVKHGTTQMSCRLIDARFPD</Hsp_hseq>
+      <Hsp_midline>FAVS+DDLRPAM GVY EM+ +GL FVATDAH+LVRYKR DV    T+S+I+PKKPLN+LKS +PD  +E+   +N  H F++    +MS RLIDARFPD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_090393424.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit beta [Niabella drilacis] &gt;emb|SDE20880.1| DNA polymerase-3 subunit beta [Niabella drilacis]</Hit_def>
+  <Hit_accession>WP_090393424</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>1.59345e-36</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>FAVSNDDLRPAMNGVYMEMEDEGLLFVATDAHKLVRYKRTDVGTQSTNSVILPKKPLNILKSILPDTQEEITAGFNEKHFFIELKNIRMSFRLIDARFPD</Hsp_qseq>
+      <Hsp_hseq>FATSTDDLRPAMTGVYFELDKKGIQFVATDAHRLVRYKRTDVSSPNTDTFIVPRKPLNLLKSALPDNNDEITINYNTNHFFVIHGTTQMSCRLIDARFPD</Hsp_hseq>
+      <Hsp_midline>FA S DDLRPAM GVY E++ +G+ FVATDAH+LVRYKRTDV + +T++ I+P+KPLN+LKS LPD  +EIT  +N  HFF+     +MS RLIDARFPD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|RYY63991.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit beta [Chitinophagaceae bacterium]</Hit_def>
+  <Hit_accession>RYY63991</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>2.1458e-36</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>FAVSNDDLRPAMNGVYMEMEDEGLLFVATDAHKLVRYKRTDVGTQSTNSVILPKKPLNILKSILPDTQEEITAGFNEKHFFIELKNIRMSFRLIDARFPD</Hsp_qseq>
+      <Hsp_hseq>FAVSNDDLRPAMTGVYFELNKDYIQFVATDAHRLVRYKRTDVSCPKTDSFIVPRKPLNLLKSALPDNEDELTVSYNGNHLFVKHGSTQMSCRLIDARFPD</Hsp_hseq>
+      <Hsp_midline>FAVSNDDLRPAM GVY E+  + + FVATDAH+LVRYKRTDV    T+S I+P+KPLN+LKS LPD ++E+T  +N  H F++  + +MS RLIDARFPD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>285796324</Statistics_db-num>
+      <Statistics_db-len>102865278292</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

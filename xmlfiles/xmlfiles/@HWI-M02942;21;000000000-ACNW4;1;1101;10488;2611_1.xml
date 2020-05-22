@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_31611</BlastOutput_query-ID>
+  <BlastOutput_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:10488:2611_1</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_31611</Iteration_query-ID>
+  <Iteration_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:10488:2611_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_091834164.1|</Hit_id>
+  <Hit_def>helix-turn-helix domain-containing protein [Bosea lupini] &gt;emb|SEL39165.1| hypothetical protein SAMN04515666_103607 [Bosea lupini]</Hit_def>
+  <Hit_accession>WP_091834164</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.00110175</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>EFRVALQNAVDIARDSLEEELLRRAMNGSDRLLLEAVRAANPERYQKKTTSEH</Hsp_qseq>
+      <Hsp_hseq>EFAAAWDDAIETGTDNLEDEARRRAMSTSDTLMIFMLKARRPEKYKERYAAEH</Hsp_hseq>
+      <Hsp_midline>EF  A  +A++   D+LE+E  RRAM+ SD L++  ++A  PE+Y+++  +EH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>dbj|GBC94467.1|</Hit_id>
+  <Hit_def>hypothetical protein HRbin16_00248 [bacterium HR16]</Hit_def>
+  <Hit_accession>GBC94467</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.02583</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>FRVALQNAVDIARDSLEEELLRRAMNGSDRLLLEAVRAANPERYQKKTTSEHKITGEVV</Hsp_qseq>
+      <Hsp_hseq>FADAWQDALESGTDVLEDEAVRRALAGSDTLLMFLLKARRPEKFRDNVRVEHDAGREML</Hsp_hseq>
+      <Hsp_midline>F  A Q+A++   D LE+E +RRA+ GSD LL+  ++A  PE+++     EH    E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_160792173.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [unclassified Saccharibacter] &gt;gb|MXV35856.1| hypothetical protein [Saccharibacter sp. EH611] &gt;gb|MXV57976.1| hypothetical protein [Saccharibacter sp. EH70] &gt;gb|MXV66371.1| hypothetical protein [Saccharibacter sp. EH60]</Hit_def>
+  <Hit_accession>WP_160792173</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.061409</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>EFRVALQNAVDIARDSLEEELLRRAMNG-------------------------SDRLLLEAVRAANPERYQKKTTSEHKITGEVVHSWAELAREASKVIEIEGGK</Hsp_qseq>
+      <Hsp_hseq>EFAQEWDEAISTAIDTLEEEAWRRARDGVPEYLVTGKGLVLDKEGNPIMQNRYSDSLLTTLLKAHRPERYRERSTVEMNVTG----SLAERLDEARKRVQTQSGK</Hsp_hseq>
+      <Hsp_midline>EF      A+  A D+LEEE  RRA +G                         SD LL   ++A  PERY++++T E  +TG    S AE   EA K ++ + GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_170119405.1|</Hit_id>
+  <Hit_def>selenocysteine-specific translation elongation factor [Tumebacillus permanentifrigoris] &gt;gb|PWK13029.1| selenocysteine-specific translation elongation factor SelB [Tumebacillus permanentifrigoris]</Hit_def>
+  <Hit_accession>WP_170119405</Hit_accession>
+  <Hit_len>632</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.130601</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>435</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>RDSLEEELLRRAMNGSDRLLLEAVRAANPERYQKKTTSEHKITGEVVHSWAELAREASKVIEIEGGKVA</Hsp_qseq>
+      <Hsp_hseq>RDYVLDELLQREQGGPEQLILHAL-LEEPGLGRAQIATEVKLTEDVVAQWLATLQEHGNVVEINGGYVA</Hsp_hseq>
+      <Hsp_midline>RD + +ELL+R   G ++L+L A+    P   + +  +E K+T +VV  W    +E   V+EI GG VA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_109688950.1|</Hit_id>
+  <Hit_def>selenocysteine-specific translation elongation factor [Tumebacillus permanentifrigoris]</Hit_def>
+  <Hit_accession>WP_109688950</Hit_accession>
+  <Hit_len>639</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.14269</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>375</Hsp_hit-from>
+      <Hsp_hit-to>442</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>RDSLEEELLRRAMNGSDRLLLEAVRAANPERYQKKTTSEHKITGEVVHSWAELAREASKVIEIEGGKVA</Hsp_qseq>
+      <Hsp_hseq>RDYVLDELLQREQGGPEQLILHAL-LEEPGLGRAQIATEVKLTEDVVAQWLATLQEHGNVVEINGGYVA</Hsp_hseq>
+      <Hsp_midline>RD + +ELL+R   G ++L+L A+    P   + +  +E K+T +VV  W    +E   V+EI GG VA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|NBB81653.1|</Hit_id>
+  <Hit_def>terminase [Verrucomicrobia bacterium]</Hit_def>
+  <Hit_accession>NBB81653</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.171553</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>EFRVALQNAVDIARDSLEEELLRRAMNGSDRLLLEAVRAANPERYQKKTTSEH</Hsp_qseq>
+      <Hsp_hseq>EFAAAWDMALDSGIDRLEDEAYKRALSGSDTLLIFLLKSKRPSIYSEKQRLEH</Hsp_hseq>
+      <Hsp_midline>EF  A   A+D   D LE+E  +RA++GSD LL+  +++  P  Y +K   EH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>tpg|HED59413.1|</Hit_id>
+  <Hit_def>hypothetical protein [Armatimonadetes bacterium]</Hit_def>
+  <Hit_accession>HED59413</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.333406</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>EFRVALQNAVDIARDSLEEELLRRAMNGSDRLLLEAVRAANPERYQKKTTSEHKITGEVVHSWAELAREASKVIEIEGGKVAE</Hsp_qseq>
+      <Hsp_hseq>KFAQEWHDAWESGTDLLEDTAFERALAGSDTLLIFLLKARRPEVFRENVRMEHDLGRELLDALNRAARESAKLLGSSGRQPPE</Hsp_hseq>
+      <Hsp_midline>+F     +A +   D LE+    RA+ GSD LL+  ++A  PE +++    EH +  E++ +    ARE++K++   G +  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|PCI09170.1|</Hit_id>
+  <Hit_def>arylsulfatase [Flavobacteriaceae bacterium]</Hit_def>
+  <Hit_accession>PCI09170</Hit_accession>
+  <Hit_len>787</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.361658</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>PPSISITLLASLANSAHEWTTS----PVILCSLVVFFWYLSGFAARTASSRSLSLPFMARLSSSSSRESRAISTAFCKATRNS</Hsp_qseq>
+      <Hsp_hseq>PPSAS-TAGKTLADSKHQWRTAENHLPADAPNIVIFMTDDAGFSNPSTFGGPVNTPTMTRLAESGISYNAFHTTAMCSPTRAS</Hsp_hseq>
+      <Hsp_midline>PPS S T   +LA+S H+W T+    P    ++V+F    +GF+  +     ++ P M RL+ S    +   +TA C  TR S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_116575855.1|</Hit_id>
+  <Hit_def>acetate kinase [Ralstonia sp. GV074] &gt;gb|PVY05906.1| hypothetical protein C7515_10726 [Ralstonia sp. GV074]</Hit_def>
+  <Hit_accession>WP_116575855</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.899224</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>RNCSDGP*MAVTGSCLKLCGRRILKDTRKRPPVSTRSPVRSSIRGRSWRERRAK*SRLREVKWLRTLSEIRAHVYHELR</Hsp_qseq>
+      <Hsp_hseq>KNAPWGPLRAVACACLLLCGRSALAQTNE--PVDDKPPSLESLQ----RELADTQARLQELK--RSIQQQEAHLRHMRR</Hsp_hseq>
+      <Hsp_midline>+N   GP  AV  +CL LCGR  L  T +  PV  + P   S++    RE     +RL+E+K  R++ +  AH+ H  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>285796324</Statistics_db-num>
+      <Statistics_db-len>102865278292</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

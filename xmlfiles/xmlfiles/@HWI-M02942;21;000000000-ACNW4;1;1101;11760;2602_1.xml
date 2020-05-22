@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_26741</BlastOutput_query-ID>
+  <BlastOutput_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:11760:2602_1</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_26741</Iteration_query-ID>
+  <Iteration_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:11760:2602_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|PZM91630.1|</Hit_id>
+  <Hit_def>peptidyl-dipeptidase [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>PZM91630</Hit_accession>
+  <Hit_len>608</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>8.75766e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>209</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>DLGELWRSNYDMEPDALAAETERLWEQVKPLYDELHCFVRSRLRKVYGEDKIPADGPIPAHVLGNMWAQDWSYLYPMLEPFPGQGDLDVDRALVRPVSDA</Hsp_qseq>
+      <Hsp_hseq>DVGELWRSGYDMDPEALRAEVERLWEQVKPLYEELHCYVRARLQKVYGEDRIPSDGPIPAHVLGNMWAQDWSNLYPLLEPFPGQGDLDVDAALVRQGYDA</Hsp_hseq>
+      <Hsp_midline>D+GELWRS YDM+P+AL AE ERLWEQVKPLY+ELHC+VR+RL+KVYGED+IP+DGPIPAHVLGNMWAQDWS LYP+LEPFPGQGDLDVD ALVR   DA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|NIL94013.1|</Hit_id>
+  <Hit_def>peptidase M2 family protein [Woeseiaceae bacterium] &gt;gb|NIP20675.1| peptidase M2 family protein [Woeseiaceae bacterium] &gt;gb|NIS89468.1| peptidase M2 family protein [Woeseiaceae bacterium]</Hit_def>
+  <Hit_accession>NIL94013</Hit_accession>
+  <Hit_len>607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>2.63114e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>208</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>DLGELWRSNYDMEPDALAAETERLWEQVKPLYDELHCFVRSRLRKVYGEDKIPADGPIPAHVLGNMWAQDWSYLYPMLEPFPGQGDLDVDRALV</Hsp_qseq>
+      <Hsp_hseq>NLGEMWRANYDMSPDEFRTESERLWEQVKPLYDELHCHVRAKLGEVYGEDKVPQDGPIPAHILGNMWAQEWIAIYDLLEPYPGVSDLDVDSTLT</Hsp_hseq>
+      <Hsp_midline>+LGE+WR+NYDM PD    E+ERLWEQVKPLYDELHC VR++L +VYGEDK+P DGPIPAH+LGNMWAQ+W  +Y +LEP+PG  DLDVD  L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>tpg|HCF59120.1|</Hit_id>
+  <Hit_def>peptidyl-dipeptidase [Myxococcales bacterium]</Hit_def>
+  <Hit_accession>HCF59120</Hit_accession>
+  <Hit_len>541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.14111e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>DLGELWRSNYDMEPDALAAETERLWEQVKPLYDELHCFVRSRLRKVYGEDKIPADGPIPAHVLGNMWAQDWSYLYPMLEPFPGQGDLDVDRALVRPVSDA</Hsp_qseq>
+      <Hsp_hseq>DLGELWRAGYDMSPAGFEKETDRLWQQVKPLYDSLHCYVRARLQRLYGKEKVPSDGPIPAHLLGNMWAQEWTNLYPLIEPYKNHASLDVDSALKRQKYDA</Hsp_hseq>
+      <Hsp_midline>DLGELWR+ YDM P     ET+RLW+QVKPLYD LHC+VR+RL+++YG++K+P+DGPIPAH+LGNMWAQ+W+ LYP++EP+     LDVD AL R   DA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_050726452.1|</Hit_id>
+  <Hit_def>M2 family metallopeptidase [Vulgatibacter incomptus] &gt;gb|AKU92253.1| Peptidyl-dipeptidase A precursor [Vulgatibacter incomptus]</Hit_def>
+  <Hit_accession>WP_050726452</Hit_accession>
+  <Hit_len>613</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>3.30411e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>DLGELWRSNYDMEPDALAAETERLWEQVKPLYDELHCFVRSRLRKVYGEDKIPADGPIPAHVLGNMWAQDWSYLYPMLEPFPGQGDLDVDRALVRPVSDA</Hsp_qseq>
+      <Hsp_hseq>DLGELWKSGYDMSPADFEAETDRLWQQVKPLYDELHCYVRSQLVKKYGKDRVPARGPIPAHLLGNMWSQDWSNIYPLVEPYKGAASLDVDASLKKQKYDA</Hsp_hseq>
+      <Hsp_midline>DLGELW+S YDM P    AET+RLW+QVKPLYDELHC+VRS+L K YG+D++PA GPIPAH+LGNMW+QDWS +YP++EP+ G   LDVD +L +   DA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|RZV37137.1|</Hit_id>
+  <Hit_def>peptidase M2 family protein [Chromatiales bacterium]</Hit_def>
+  <Hit_accession>RZV37137</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>5.02624e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>DLGELWRSNYDMEPDALAAETERLWEQVKPLYDELHCFVRSRLRKVYGEDKIPADGPIPAHVLGNMWAQDWSYLYPMLEPFPGQGDLDVDRAL</Hsp_qseq>
+      <Hsp_hseq>DLGEMWKSNYDMSPAEFEAESAKLWEQVKPLYDELHCHVRATLGDVYGEDKVPQDGPIPAHLLGNMWAQQWGSLYDLLEPYPGVGDIDVDTTL</Hsp_hseq>
+      <Hsp_midline>DLGE+W+SNYDM P    AE+ +LWEQVKPLYDELHC VR+ L  VYGEDK+P DGPIPAH+LGNMWAQ W  LY +LEP+PG GD+DVD  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_139915765.1|</Hit_id>
+  <Hit_def>M2 family metallopeptidase [Corallococcus exiguus] &gt;gb|NBC40228.1| peptidase M2 family protein [Corallococcus exiguus] &gt;gb|TNV66389.1| M2 family metallopeptidase [Corallococcus exiguus]</Hit_def>
+  <Hit_accession>WP_139915765</Hit_accession>
+  <Hit_len>619</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>8.57241e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>DLGELWRSNYDMEPDALAAETERLWEQVKPLYDELHCFVRSRLRKVYGEDKIPADGPIPAHVLGNMWAQDWSYLYPMLEPFPGQGDLDVDRALVRPVSDA</Hsp_qseq>
+      <Hsp_hseq>DLGTLWRSSYDMTPAEFEKEAQRLWGQVKPMYDELHCYVRGRLAKQYGEASVPAGKPIPAHLLGNMWAQEWNNIYPLVEPFPGQASLDVDSALVKQGYDA</Hsp_hseq>
+      <Hsp_midline>DLG LWRS+YDM P     E +RLW QVKP+YDELHC+VR RL K YGE  +PA  PIPAH+LGNMWAQ+W+ +YP++EPFPGQ  LDVD ALV+   DA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_136931541.1|</Hit_id>
+  <Hit_def>M2 family metallopeptidase [Polyangium fumosum] &gt;gb|TKD03807.1| peptidase M2 family protein [Polyangium fumosum]</Hit_def>
+  <Hit_accession>WP_136931541</Hit_accession>
+  <Hit_len>634</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>1.18713e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>DLGELWRSNYDMEPDALAAETERLWEQVKPLYDELHCFVRSRLRKVYGEDKIPADGPIPAHVLGNMWAQDWSYLYPMLEPFPGQGDLDVDRALVRPVSDA</Hsp_qseq>
+      <Hsp_hseq>DVGALWRSGYDMTPEAFEADTERLWNQVKPLYDELHCLVRSKLRKVYGKDKIGDKAPIPAHLLGNMWAQDWSNLYDLVTPYPKEASLDVTKALVDKKVDA</Hsp_hseq>
+      <Hsp_midline>D+G LWRS YDM P+A  A+TERLW QVKPLYDELHC VRS+LRKVYG+DKI    PIPAH+LGNMWAQDWS LY ++ P+P +  LDV +ALV    DA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_120539980.1|</Hit_id>
+  <Hit_def>M2 family metallopeptidase [Corallococcus terminator] &gt;gb|RKG91959.1| peptidase M2 family protein [Corallococcus terminator]</Hit_def>
+  <Hit_accession>WP_120539980</Hit_accession>
+  <Hit_len>618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.48666e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>219</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>DLGELWRSNYDMEPDALAAETERLWEQVKPLYDELHCFVRSRLRKVYGEDKIPADGPIPAHVLGNMWAQDWSYLYPMLEPFPGQGDLDVDRALVRPVSDA</Hsp_qseq>
+      <Hsp_hseq>DLGTLWRSGYDMPPADFEKEAQRLWGQVKPMYDELHCYVRGRLAKQYGEAKVPAGKPIPAHLLGNMWAQEWNNIYPLVEPFPGQASLDVDAALVKQGYDA</Hsp_hseq>
+      <Hsp_midline>DLG LWRS YDM P     E +RLW QVKP+YDELHC+VR RL K YGE K+PA  PIPAH+LGNMWAQ+W+ +YP++EPFPGQ  LDVD ALV+   DA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|NNF41254.1|</Hit_id>
+  <Hit_def>M2 family metallopeptidase [Woeseiaceae bacterium]</Hit_def>
+  <Hit_accession>NNF41254</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>1.60179e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>217</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>DLGELWRSNYDMEPDALAAETERLWEQVKPLYDELHCFVRSRLRKVYGEDKIPADGPIPAHVLGNMWAQDWSYLYPMLEPFPGQGDLDVDRAL</Hsp_qseq>
+      <Hsp_hseq>DLGEMWRSNYDMSPAAFEQETARLWEQVTPLYDALHCHVRARLGEAYGTDIVPQDGPIPAHLLGNMWAQQWGFIYDLVEPYPGVGDLDVDSTL</Hsp_hseq>
+      <Hsp_midline>DLGE+WRSNYDM P A   ET RLWEQV PLYD LHC VR+RL + YG D +P DGPIPAH+LGNMWAQ W ++Y ++EP+PG GDLDVD  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_136921198.1|</Hit_id>
+  <Hit_def>M2 family metallopeptidase [Polyangium sp. SDU3-1] &gt;gb|TKC79737.1| peptidase M2 family protein [Polyangium sp. SDU3-1]</Hit_def>
+  <Hit_accession>WP_136921198</Hit_accession>
+  <Hit_len>626</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>2.49251e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>227</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>DLGELWRSNYDMEPDALAAETERLWEQVKPLYDELHCFVRSRLRKVYGEDKIPADGPIPAHVLGNMWAQDWSYLYPMLEPFPGQGDLDVDRALVRPVSDA</Hsp_qseq>
+      <Hsp_hseq>DLGALWRSGYDMPPEAFEAETERLWGQVKTLYDELHCYVRSRLRKKYGADKIADKAPIPAHLLGNMWAQDWANIYDLVEPYPGQASLDVTKALKDKKVDA</Hsp_hseq>
+      <Hsp_midline>DLG LWRS YDM P+A  AETERLW QVK LYDELHC+VRSRLRK YG DKI    PIPAH+LGNMWAQDW+ +Y ++EP+PGQ  LDV +AL     DA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>285796324</Statistics_db-num>
+      <Statistics_db-len>102865278292</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

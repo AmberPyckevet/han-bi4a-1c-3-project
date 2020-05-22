@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_17243</BlastOutput_query-ID>
+  <BlastOutput_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:12735:2592_2</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_17243</Iteration_query-ID>
+  <Iteration_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:12735:2592_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_104287057.1|</Hit_id>
+  <Hit_def>sodium:proton antiporter [Pseudoclavibacter sp. AY1F1] &gt;gb|PPF42554.1| peptidase [Pseudoclavibacter sp. AY1F1]</Hit_def>
+  <Hit_accession>WP_104287057</Hit_accession>
+  <Hit_len>568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>2.98463e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>WRTAQLLLENGVFLAMGYQLTSLVEDVEVARESVG--HAVLVALAVTGVLIATRVLFVAPLVAYLPCRERPPRPPAP------DRAYRPGRAAAPPRARARAPR</Hsp_qseq>
+      <Hsp_hseq>WRTAQLLLENGVFLLMGFELSSLIESVDGDADGIGLLHAVGIGLLATLALVVIRVLFMIPLVLSLRSEQRRAELVAPRVEQFLKRVTAPGHEGAKPRLVDRAKR</Hsp_hseq>
+      <Hsp_midline>WRTAQLLLENGVFL MG++L+SL+E V+   + +G  HAV + L  T  L+  RVLF+ PLV  L   +R     AP       R   PG   A PR   RA R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_104331107.1|</Hit_id>
+  <Hit_def>sodium:proton antiporter [Pseudoclavibacter sp. RFBG4] &gt;gb|PPG33657.1| peptidase [Pseudoclavibacter sp. RFBG4]</Hit_def>
+  <Hit_accession>WP_104331107</Hit_accession>
+  <Hit_len>568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>1.06816e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>WRTAQLLLENGVFLAMGYQLTSLVEDVEVARESVG--HAVLVALAVTGVLIATRVLFVAPLVAYLPCRERPPRPPAP------DRAYRPGRAAAPPRARARAPR</Hsp_qseq>
+      <Hsp_hseq>WRTAQLLLENGVFLLMGFELSALIESVDGDADGIGLLHAVGIGLLATIALVVIRVLFVIPLVLMLRREQRRAELVAPRVEQFLKRVTAPGLASARPRLVDRAKR</Hsp_hseq>
+      <Hsp_midline>WRTAQLLLENGVFL MG++L++L+E V+   + +G  HAV + L  T  L+  RVLFV PLV  L   +R     AP       R   PG A+A PR   RA R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_160071660.1|</Hit_id>
+  <Hit_def>cation:proton antiporter [Pseudoclavibacter sp. 8L] &gt;emb|VXB14846.1| Peptidase [Pseudoclavibacter sp. 8L]</Hit_def>
+  <Hit_accession>WP_160071660</Hit_accession>
+  <Hit_len>568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>1.08916e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>WRTAQLLLENGVFLAMGYQLTSLVEDVEVARESVG--HAVLVALAVTGVLIATRVLFVAPLVAYLPCRERPPRPPAP------DRAYRPGRAAAPPRARARAPR</Hsp_qseq>
+      <Hsp_hseq>WRTAQLLLENGVFLLMGFELSALIESVDGDADGIGLLHAVGIGLLATIALVVIRVLFVIPLVLMLRREQRRAELVAPRVEQFLKRVTAPGLASARPRLVDRAKR</Hsp_hseq>
+      <Hsp_midline>WRTAQLLLENGVFL MG++L++L+E V+   + +G  HAV + L  T  L+  RVLFV PLV  L   +R     AP       R   PG A+A PR   RA R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_068478211.1|</Hit_id>
+  <Hit_def>sodium:proton antiporter [Pseudoclavibacter helvolus]</Hit_def>
+  <Hit_accession>WP_068478211</Hit_accession>
+  <Hit_len>568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>1.08916e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>WRTAQLLLENGVFLAMGYQLTSLVEDVEVARESVG--HAVLVALAVTGVLIATRVLFVAPLVAYLPCRERPPRPPAP------DRAYRPGRAAAPPRARARAPR</Hsp_qseq>
+      <Hsp_hseq>WRTAQLLLENGVFLLMGFELSALIESVDGDADGIGLLHAVGIGLLATLALVIIRVLFVIPLVLSLRSEQRRAELVAPRVEQFLKRVTAPGLEGAKPRIVDRAKR</Hsp_hseq>
+      <Hsp_midline>WRTAQLLLENGVFL MG++L++L+E V+   + +G  HAV + L  T  L+  RVLFV PLV  L   +R     AP       R   PG   A PR   RA R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_104299087.1|</Hit_id>
+  <Hit_def>MULTISPECIES: sodium:proton antiporter [unclassified Pseudoclavibacter] &gt;gb|PPF40311.1| peptidase [Pseudoclavibacter sp. AY1H1] &gt;gb|PPF84286.1| peptidase [Pseudoclavibacter sp. RFBJ5] &gt;gb|PPF92814.1| peptidase [Pseudoclavibacter sp. RFBJ3] &gt;gb|PPF98114.1| peptidase [Pseudoclavibacter sp. RFBH5] &gt;gb|PPG02433.1| peptidase [Pseudoclavibacter sp. RFBI5]</Hit_def>
+  <Hit_accession>WP_104299087</Hit_accession>
+  <Hit_len>568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>1.8602e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>WRTAQLLLENGVFLAMGYQLTSLVEDVEVARESVG--HAVLVALAVTGVLIATRVLFVAPLVAYLPCRERPPRPPAP------DRAYRPGRAAAPPRARARAPR</Hsp_qseq>
+      <Hsp_hseq>WRTAQLLLENGVFLLMGFELSALIESVDGDEDGIGLLHAVGIGLLATIALVVIRVLFVIPLVLMLRREQRRAELVAPRVEQFLKRVTAPGLASTRPRLVDRAKR</Hsp_hseq>
+      <Hsp_midline>WRTAQLLLENGVFL MG++L++L+E V+   + +G  HAV + L  T  L+  RVLFV PLV  L   +R     AP       R   PG A+  PR   RA R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_159553830.1|</Hit_id>
+  <Hit_def>cation:proton antiporter [Citricoccus sp. K5] &gt;emb|VXC05057.1| Sodium/proton antiporter (CPA1 family) [Citricoccus sp. K5]</Hit_def>
+  <Hit_accession>WP_159553830</Hit_accession>
+  <Hit_len>562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>6.77867e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>WRTAQLLLENGVFLAMGYQLTSLVEDVEVARESVGHAVLVALAVTGVLIATRVLFVAPLVAYLPCRER-----PPRPPAPDRAYRPGRAAAPPRARARAPRTR</Hsp_qseq>
+      <Hsp_hseq>WRTIQLLLENGVFLLMGFEITSIVADAESSGRGLWMAVALAAACTVILFGVRILFVVPLIAHLRARQRRIPEVAEQLDAALEAVAEGEQDANPRRASRLQRWR</Hsp_hseq>
+      <Hsp_midline>WRT QLLLENGVFL MG+++TS+V D E +   +  AV +A A T +L   R+LFV PL+A+L  R+R       +  A   A   G   A PR  +R  R R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_104241103.1|</Hit_id>
+  <Hit_def>sodium:proton antiporter [Pseudoclavibacter sp. Z016] &gt;gb|PPF75682.1| peptidase [Pseudoclavibacter sp. Z016]</Hit_def>
+  <Hit_accession>WP_104241103</Hit_accession>
+  <Hit_len>568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>7.62768e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>WRTAQLLLENGVFLAMGYQLTSLVEDVEVARESVG--HAVLVALAVTGVLIATRVLFVAPLVAYLPCRERPPRPPAP------DRAYRPGRAAAPPRARARAPR</Hsp_qseq>
+      <Hsp_hseq>WRTAQLLLENGVFLLMGFELAALIESVDGDADGIGLLHAVGIGLLATIALVVIRVLFVIPLVLMLRREQRRAELVAPRVEQFLKRVTAPGLASTRPRLVDRAKR</Hsp_hseq>
+      <Hsp_midline>WRTAQLLLENGVFL MG++L +L+E V+   + +G  HAV + L  T  L+  RVLFV PLV  L   +R     AP       R   PG A+  PR   RA R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_010143916.1|</Hit_id>
+  <Hit_def>sodium:proton antiporter [Citricoccus sp. CH26A]</Hit_def>
+  <Hit_accession>WP_010143916</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>1.3136e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>WRTAQLLLENGVFLAMGYQLTSLVEDVEVARESVGHAVLVALAVTGVLIATRVLFVAPLVAYLPCRER--PPRPPAPDRAYRPGRAAAPPRARARAPRTRR</Hsp_qseq>
+      <Hsp_hseq>WRTIQLLLENGVFLLMGFEITSIVADAEASGRGLWFAVGIAVLCTAVLVAVRIAFVVPLIAVLRARQRRVPQLARNLDAAIESTASGEPPHPRTVA-RLRR</Hsp_hseq>
+      <Hsp_midline>WRT QLLLENGVFL MG+++TS+V D E +   +  AV +A+  T VL+A R+ FV PL+A L  R+R  P      D A     +  PP  R  A R RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_115932312.1|</Hit_id>
+  <Hit_def>sodium:proton antiporter [Citricoccus muralis] &gt;gb|REE04364.1| sodium/proton antiporter (CPA1 family) [Citricoccus muralis]</Hit_def>
+  <Hit_accession>WP_115932312</Hit_accession>
+  <Hit_len>562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>3.31182e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>WRTAQLLLENGVFLAMGYQLTSLVEDVEVARESVGHAVLVALAVTGVLIATRVLFVAPLVAYLPCRER-----PPRPPAPDRAYRPGRAAAPPRARARAPRTR</Hsp_qseq>
+      <Hsp_hseq>WRTIQLLLENGVFLLMGFEITSIVADAESSGRGLWMAVALAAACTVILFGVRILFVVPLIARLRARQRRVPEVAEHLDAALEAVAEGDQEANPRRAARLQRWR</Hsp_hseq>
+      <Hsp_midline>WRT QLLLENGVFL MG+++TS+V D E +   +  AV +A A T +L   R+LFV PL+A L  R+R          A   A   G   A PR  AR  R R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_151423368.1|</Hit_id>
+  <Hit_def>cation:proton antiporter [Pseudoclavibacter terrae] &gt;gb|KAB1638282.1| sodium:proton antiporter [Pseudoclavibacter terrae]</Hit_def>
+  <Hit_accession>WP_151423368</Hit_accession>
+  <Hit_len>566</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>5.55118e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>WRTAQLLLENGVFLAMGYQLTSLVEDVEVARESVG--HAVLVALAVTGVLIATRVLFVAPLVAYLPCRERPPRPPAP--DRAYR--PGRAAAPPRARARAPR</Hsp_qseq>
+      <Hsp_hseq>WRTAQLLLENGVFLLMGFELSALIESVDGDEDGIGLLHAVGIGLLATAALVLIRVAFVIPLVLMLRSEQRRATLVAPRLDRFLERVAGKDNVRPRLLDRAKR</Hsp_hseq>
+      <Hsp_midline>WRTAQLLLENGVFL MG++L++L+E V+   + +G  HAV + L  T  L+  RV FV PLV  L   +R     AP  DR      G+    PR   RA R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>285796324</Statistics_db-num>
+      <Statistics_db-len>102865278292</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

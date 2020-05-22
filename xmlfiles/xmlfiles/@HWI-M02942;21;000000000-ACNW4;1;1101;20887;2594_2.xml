@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_51781</BlastOutput_query-ID>
+  <BlastOutput_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:20887:2594_2</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_51781</Iteration_query-ID>
+  <Iteration_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:20887:2594_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MBS64477.1|</Hit_id>
+  <Hit_def>oxidoreductase [Salinisphaera sp.]</Hit_def>
+  <Hit_accession>MBS64477</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>8.27442e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VWNRTHAKAVSFARETGTRAASDLPELAALSNAIVSCVSADDDVLEIVDALAPHLNESHLFIDCSTIAADTARAAAERLRHRRVARLAAPLAGGGDGAP</Hsp_qseq>
+      <Hsp_hseq>VYNRTHEKADAFGREYDVKAVSDVGDIAAEAEAIVICVSADDDVLAMVDALLPGLNDQHIVIDCSTIASDTAREAARRVGEKGAGFVDAPVSGGTEGAK</Hsp_hseq>
+      <Hsp_midline>V+NRTH KA +F RE   +A SD+ ++AA + AIV CVSADDDVL +VDAL P LN+ H+ IDCSTIA+DTAR AA R+  +    + AP++GG +GA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|RPI16312.1|</Hit_id>
+  <Hit_def>NAD(P)-dependent oxidoreductase [Xanthomonadales bacterium]</Hit_def>
+  <Hit_accession>RPI16312</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>1.37152e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VWNRTHAKAVSFARETGTRAASDLPELAALSNAIVSCVSADDDVLEIVDALAPHLNESHLFIDCSTIAADTARAAAERLRHRRVARLAAPLAGGGDGA</Hsp_qseq>
+      <Hsp_hseq>VWNRTTARAEALAGETGVEAPSTLAELAARCDVVVTCVSADADVLEVVDALRPALRPGSIVIDCSTVAADTARTAAERLAAHSVAFLDAPVSGGVEGA</Hsp_hseq>
+      <Hsp_midline>VWNRT A+A + A ETG  A S L ELAA  + +V+CVSAD DVLE+VDAL P L    + IDCST+AADTAR AAERL    VA L AP++GG +GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_006913953.1|</Hit_id>
+  <Hit_def>NAD(P)-dependent oxidoreductase [Salinisphaera shabanensis] &gt;gb|ERJ19316.1| 2-hydroxy-3-oxopropionate reductase GarR protein [Salinisphaera shabanensis E1L3A]</Hit_def>
+  <Hit_accession>WP_006913953</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.99</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>1.20172e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VWNRTHAKAVSFARETGTRAASDLPELAALSNAIVSCVSADDDVLEIVDALAPHLNESHLFIDCSTIAADTARAAAERLRHRRVARLAAPLAGGGDGA</Hsp_qseq>
+      <Hsp_hseq>VYNRTTEKADAFAKEYGVKAVSTPGETAAEAQAIVICVSADDDVLAMVDALAPGLTDEHIVIDCSTIASDTAREAARRVAEQGAGFVDAPVSGGTEGA</Hsp_hseq>
+      <Hsp_midline>V+NRT  KA +FA+E G +A S   E AA + AIV CVSADDDVL +VDALAP L + H+ IDCSTIA+DTAR AA R+  +    + AP++GG +GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_129777328.1|</Hit_id>
+  <Hit_def>NAD(P)-dependent oxidoreductase [Steroidobacter sp. JW-3]</Hit_def>
+  <Hit_accession>WP_129777328</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>4.89912e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VWNRTHAKAVSFARETGTRAASDLPELAALSNAIVSCVSADDDVLEIVDALAPHLNESHLFIDCSTIAADTARAAAERLRHRRVARLAAPLAGGGDGA</Hsp_qseq>
+      <Hsp_hseq>VWNRTAEKATALAQETGCKAVTKLAELAPLCDVIVTCVSADADVLAVIDELLPVIKRGTIVIDCSTISADTARTAAHRLNAAGAQFLDAPVSGGTEGA</Hsp_hseq>
+      <Hsp_midline>VWNRT  KA + A+ETG +A + L ELA L + IV+CVSAD DVL ++D L P +    + IDCSTI+ADTAR AA RL       L AP++GG +GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_129643298.1|</Hit_id>
+  <Hit_def>NAD(P)-dependent oxidoreductase [Steroidobacter agariperforans]</Hit_def>
+  <Hit_accession>WP_129643298</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>1.84966e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VWNRTHAKAVSFARETGTRAASDLPELAALSNAIVSCVSADDDVLEIVDALAPHLNESHLFIDCSTIAADTARAAAERLRHRRVARLAAPLAGGGDGA</Hsp_qseq>
+      <Hsp_hseq>VWNRTAEKATALAQETGCKAVGKLAELAPLCDVIVTCVSADADVLAVIDELLPVIKPDTIVIDCSTVSADTARTAAHRLHKAGAQFLDAPVSGGTEGA</Hsp_hseq>
+      <Hsp_midline>VWNRT  KA + A+ETG +A   L ELA L + IV+CVSAD DVL ++D L P +    + IDCST++ADTAR AA RL       L AP++GG +GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_116807748.1|</Hit_id>
+  <Hit_def>NAD(P)-dependent oxidoreductase [Steroidobacter cummioxidans]</Hit_def>
+  <Hit_accession>WP_116807748</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>3.86845e-22</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>WNRTHAKAVSFARETGTRAASDLPELAALSNAIVSCVSADDDVLEIVDALAPHLNESHLFIDCSTIAADTARAAAERLRHRRVARLAAPLAGGGDGA</Hsp_qseq>
+      <Hsp_hseq>WNRTAEKATALAQETGCKAVSKLADLAPLCDVIVTCVSADADVLAVIDELLPVIKPDTIVIDCSTISADTARTAAHRLHKAGAQFLDAPVSGGTEGA</Hsp_hseq>
+      <Hsp_midline>WNRT  KA + A+ETG +A S L +LA L + IV+CVSAD DVL ++D L P +    + IDCSTI+ADTAR AA RL       L AP++GG +GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_161811340.1|</Hit_id>
+  <Hit_def>MULTISPECIES: NAD-binding protein [unclassified Steroidobacter]</Hit_def>
+  <Hit_accession>WP_161811340</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>8.70481e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VWNRTHAKAVSFARETGTRAASDLPELAALSNAIVSCVSADDDVLEIVDALAPHLNESHLFIDCSTIAADTARAAAERLRHRRVARLAAPLAGGGDGA</Hsp_qseq>
+      <Hsp_hseq>VWNRTAEKATALAQETGCKAVGKLADLAPLCDVIVTCVSADADVLAVIDELLPVIEPDTIVIDCSTVSADTARTAAHRLHKAGAQFLDAPVSGGTEGA</Hsp_hseq>
+      <Hsp_midline>VWNRT  KA + A+ETG +A   L +LA L + IV+CVSAD DVL ++D L P +    + IDCST++ADTAR AA RL       L AP++GG +GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>dbj|GFE78581.1|</Hit_id>
+  <Hit_def>tartronate semialdehyde reductase [Steroidobacter sp. YU21-B] &gt;dbj|GFE89486.1| tartronate semialdehyde reductase [Steroidobacter sp. SA29-B]</Hit_def>
+  <Hit_accession>GFE78581</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>9.36808e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VWNRTHAKAVSFARETGTRAASDLPELAALSNAIVSCVSADDDVLEIVDALAPHLNESHLFIDCSTIAADTARAAAERLRHRRVARLAAPLAGGGDGA</Hsp_qseq>
+      <Hsp_hseq>VWNRTAEKATALAQETGCKAVGKLADLAPLCDVIVTCVSADADVLAVIDELLPVIEPDTIVIDCSTVSADTARTAAHRLHKAGAQFLDAPVSGGTEGA</Hsp_hseq>
+      <Hsp_midline>VWNRT  KA + A+ETG +A   L +LA L + IV+CVSAD DVL ++D L P +    + IDCST++ADTAR AA RL       L AP++GG +GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_085441643.1|</Hit_id>
+  <Hit_def>NAD(P)-dependent oxidoreductase [Magnetofaba australis] &gt;gb|OSM04999.1| putative 6-phosphogluconate dehydrogenase [Magnetofaba australis IT-1]</Hit_def>
+  <Hit_accession>WP_085441643</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>2.69715e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VWNRTHAKAVSFARETGTRAASDLPELAALSNAIVSCVSADDDVLEIVDALAPHLNESHLFIDCSTIAADTARAAAERLRHRRVARLAAPLAGGGDGA</Hsp_qseq>
+      <Hsp_hseq>VWNRTRQKAIEFANETGVVAATDPATLAGRCEAVLICVSEDRDLFEVVEMLTPGLKARSVVIDCSTVGAETAQVCAERLADHNVAFLDAPVTGGTEGA</Hsp_hseq>
+      <Hsp_midline>VWNRT  KA+ FA ETG  AA+D   LA    A++ CVS D D+ E+V+ L P L    + IDCST+ A+TA+  AERL    VA L AP+ GG +GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|PZN80716.1|</Hit_id>
+  <Hit_def>oxidoreductase [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>PZN80716</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>2.82615e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VWNRTHAKAVSFARETGTRAASDLPELAALSNAIVSCVSADDDVLEIVDALAPHLNESHLFIDCSTIAADTARAAAERLRHRRVARLAAPLAGGGDGA</Hsp_qseq>
+      <Hsp_hseq>VWNRTAAKAKALARELGCRAPDSPADLAREVDAVVMCVSADGDVLEVVEKIAPALKNGALVIDCSTVSAETARRAAQMLAPRGVQFLDSPVSGGVEGA</Hsp_hseq>
+      <Hsp_midline>VWNRT AKA + ARE G RA     +LA   +A+V CVSAD DVLE+V+ +AP L    L IDCST++A+TAR AA+ L  R V  L +P++GG +GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>285904213</Statistics_db-num>
+      <Statistics_db-len>102865278292</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

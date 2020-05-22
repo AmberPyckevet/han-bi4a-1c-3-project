@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_32437</BlastOutput_query-ID>
+  <BlastOutput_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:10709:2602_1</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_32437</Iteration_query-ID>
+  <Iteration_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:10709:2602_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|NCG19250.1|</Hit_id>
+  <Hit_def>NUDIX domain-containing protein [Rhodobacterales bacterium]</Hit_def>
+  <Hit_accession>NCG19250</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>3.91389e-23</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>REPREALGLDLSRADVLGTLADVCTAPHLPPLTVRPWVFHVPVLPVVRPNHEVASVHLVALDALLRGEGRACFDRDWKGRRVTLPCVEFDGVRLWGMTL</Hsp_qseq>
+      <Hsp_hseq>RESMEELGLDLANAEVLGQLDDLGTVRHLPARVVQPWAFLVPEIPQLTPNDEVASVHRASLVDLVDGVGRGTMPLVFEGSEYTFPKVDFDGKQLWGMTL</Hsp_hseq>
+      <Hsp_midline>RE  E LGLDL+ A+VLG L D+ T  HLP   V+PW F VP +P + PN EVASVH  +L  L+ G GR      ++G   T P V+FDG +LWGMTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|TVQ89387.1|</Hit_id>
+  <Hit_def>CoA pyrophosphatase [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>TVQ89387</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>2.20837e-22</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>REPREALGLDLSRADVLGTLADVCTAPHLPPLTVRPWVFHVPVLPVVRPNHEVASVHLVALDALLRGEGRACFDRDWKGRRVTLPCVEFDGVRLWGMTL</Hsp_qseq>
+      <Hsp_hseq>RETREEIGLDLEGAELLGPLDHLRTMGPLPPLVIHPYVFAVPDLPPLQPNEEVASVHTLRLRVLLEGRGRGLMRHPWREQELTFPKVDFEGGRLWGLTL</Hsp_hseq>
+      <Hsp_midline>RE RE +GLDL  A++LG L  + T   LPPL + P+VF VP LP ++PN EVASVH + L  LL G GR      W+ + +T P V+F+G RLWG+TL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|TNE84515.1|</Hit_id>
+  <Hit_def>CoA pyrophosphatase [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>TNE84515</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>3.45445e-17</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>REPREALGLDLSRADVLGTLADVCTAPHLPPLTVRPWVFHVPVL-PVVRPNHEVASVHLVALDALLRGEGRACFDRDWKGRRVTLPCVEFDGVRLWGMTL</Hsp_qseq>
+      <Hsp_hseq>RETQEEVGLDLRGAELLGRLDDLPTIRPIPRLVVRPYVFAVEDFGELTLDRSEVAGTHTLHLQHLLDGRGRSSFKRGWQGQQYELPKVEFDDVMLWGLTL</Hsp_hseq>
+      <Hsp_midline>RE +E +GLDL  A++LG L D+ T   +P L VRP+VF V     +     EVA  H + L  LL G GR+ F R W+G++  LP VEFD V LWG+TL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>dbj|GDX78219.1|</Hit_id>
+  <Hit_def>coenzyme A pyrophosphatase [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>GDX78219</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>7.36433e-17</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>REPREALGLDLSRADVLGTLADVCTAPHLPP--LTVRPWVFHVPVLPVVRPNHEVASVHLVALDALLRGEGRACFDRDWKGRRVTLPCVEFDGVRLWGMTL</Hsp_qseq>
+      <Hsp_hseq>RETREELGLDLSEARCLGALSPLASPRNAPKRHISVVPYVFTVPEWAPLTPNEEVAGVVRLAFDRFLAREARGTFPYTWQGVEYELPCVRLDGTLLWGMTL</Hsp_hseq>
+      <Hsp_midline>RE RE LGLDLS A  LG L+ + +  + P   ++V P+VF VP    + PN EVA V  +A D  L  E R  F   W+G    LPCV  DG  LWGMTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MAY82321.1|</Hit_id>
+  <Hit_def>coenzyme A pyrophosphatase [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MAY82321</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>1.1796e-16</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>REPREALGLDLSRADVLGTLADVCTAPHLPPLTVRPWVFHVPVLPVVR-PNHEVASVHLVALDALLRGEGRACFDRDWKGRRVTLPCVEFDGVRLWGMTL</Hsp_qseq>
+      <Hsp_hseq>REVAEEVGIRLDRSDLLGQLSQVASPVMTARVVVTPYIFHLQSDPQLRLDGKEVAATHWFSMERLLADEGRGVFDYDYGGQRIELSRVDLDGERIWGMTL</Hsp_hseq>
+      <Hsp_midline>RE  E +G+ L R+D+LG L+ V +      + V P++FH+   P +R    EVA+ H  +++ LL  EGR  FD D+ G+R+ L  V+ DG R+WGMTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MSQ03939.1|</Hit_id>
+  <Hit_def>CoA pyrophosphatase [Myxococcales bacterium]</Hit_def>
+  <Hit_accession>MSQ03939</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>1.02037e-14</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>REPREALGLDLSRADVLGTLADVCTAPHLPPLTVR--PWVFHVPVLPVVRPNHEVASVHLVALDALLRGEGRACFDRDWKGRRVTLPCVEFDGVRLWGMTL</Hsp_qseq>
+      <Hsp_hseq>RETQEELGLDLSSARCLGALSPLLSPRNTPTRQVHVLPWVFRLDHWPPLRPNEEVAGVVRFDFRRFLAREARGTFPYTWQGTVYDLPCVKLDGTLLWGMTL</Hsp_hseq>
+      <Hsp_midline>RE +E LGLDLS A  LG L+ + +  + P   V   PWVF +   P +RPN EVA V        L  E R  F   W+G    LPCV+ DG  LWGMTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MAA85381.1|</Hit_id>
+  <Hit_def>coenzyme A pyrophosphatase [Halieaceae bacterium]</Hit_def>
+  <Hit_accession>MAA85381</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>1.07744e-12</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>REPREALGLDLSRADV-LGTLADVCTA--PHLPPLTVRPWVFHVPVLPVVRPNHEVASVHLVALDALLRGEGRACFDRDWKGRRVTLPCVEFDGVRLWGMTL</Hsp_qseq>
+      <Hsp_hseq>RETREEIGVDLSQWGTPLGELSDVNTGWRKDRPEMLVTPFIFQVSELPALTPNYEVDDVVWVPLHFLMNDANREPLEWDWKGKKMETDSYLYDSYRIWGLSL</Hsp_hseq>
+      <Hsp_midline>RE RE +G+DLS+    LG L+DV T      P + V P++F V  LP + PN+EV  V  V L  L+    R   + DWKG+++      +D  R+WG++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_146655147.1|</Hit_id>
+  <Hit_def>CoA pyrophosphatase [Labilithrix luteola] &gt;gb|AKV04549.1| MutT/nudix family protein [Labilithrix luteola]</Hit_def>
+  <Hit_accession>WP_146655147</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>1.47926e-12</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>REPREALGLDLSRADVLGTLADVCTAPHLP-PLTVRPWVFHVPVLPVVRPNHEVASVHLVALDALLRGEGRACFDRDWKGRRVTLPCVEFD--GVRLWGMT</Hsp_qseq>
+      <Hsp_hseq>RETCEEVGIDLTNADLVARLPDLLPYTRTKRAVTVTPFVFALKSDVVPTPNEEVAGTYWIPFDKLARGEGRGTFPWVWEGKTLELPCIRFEPGGEILWGMT</Hsp_hseq>
+      <Hsp_midline>RE  E +G+DL+ AD++  L D+         +TV P+VF +    V  PN EVA  + +  D L RGEGR  F   W+G+ + LPC+ F+  G  LWGMT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|PYQ12297.1|</Hit_id>
+  <Hit_def>CoA pyrophosphatase [Acidobacteria bacterium] &gt;gb|PYQ21706.1| CoA pyrophosphatase [Acidobacteria bacterium]</Hit_def>
+  <Hit_accession>PYQ12297</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>2.0132e-12</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>REPREALGLDLSR-ADVLGTLADVCTAPHLPP--LTVRPWVFHVPVLPVVRPNHEVASVHLVALDALLRGEGRACFDRDWKGRRVTLPCVEFDGVRLWGMT</Hsp_qseq>
+      <Hsp_hseq>RETEEEIGVDLAREAEYLGALDEVRAAARLRPVDLAISPFVFRLLGDASLRPNDEVRSLHWIALDELVREERRSMMDYSHQGSTLQFPCLRVEDVVIWGLT</Hsp_hseq>
+      <Hsp_midline>RE  E +G+DL+R A+ LG L +V  A  L P  L + P+VF +     +RPN EV S+H +ALD L+R E R+  D   +G  +  PC+  + V +WG+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|PYQ06466.1|</Hit_id>
+  <Hit_def>CoA pyrophosphatase [Acidobacteria bacterium]</Hit_def>
+  <Hit_accession>PYQ06466</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>5.42759e-12</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>REPREALGLDLSR-ADVLGTLADVCTAPHLPP--LTVRPWVFHVPVLPVVRPNHEVASVHLVALDALLRGEGRACFDRDWKGRRVTLPCVEFDGVRLWGMT</Hsp_qseq>
+      <Hsp_hseq>RETEEEIGVDLGREAEYLGGLDEVRAMARLRPVDLAIAPFVFRLRGAATLRPNHEVRSLHWIALDELVREERRSVMDYPVPGSTLQFPCLRVEDVVIWGLT</Hsp_hseq>
+      <Hsp_midline>RE  E +G+DL R A+ LG L +V     L P  L + P+VF +     +RPNHEV S+H +ALD L+R E R+  D    G  +  PC+  + V +WG+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>285796324</Statistics_db-num>
+      <Statistics_db-len>102865278292</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

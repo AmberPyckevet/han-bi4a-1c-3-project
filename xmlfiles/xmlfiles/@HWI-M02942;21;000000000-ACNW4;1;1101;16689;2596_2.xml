@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_35137</BlastOutput_query-ID>
+  <BlastOutput_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:16689:2596_2</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_35137</Iteration_query-ID>
+  <Iteration_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:16689:2596_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|NLH06323.1|</Hit_id>
+  <Hit_def>NTP transferase domain-containing protein [Chloroflexi bacterium]</Hit_def>
+  <Hit_accession>NLH06323</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>8.59221e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MQTGTVRKAVIPAAGFGTRLFPATRVVQKALLPVPDGRGGLAPAVQMIAEEALAGGVETVII</Hsp_qseq>
+      <Hsp_hseq>MQTGTVRKAVIPAAGFGTRLFPATRVVQKALLPVPDGRGGLAPAVQMIAEEALAGGVETVII</Hsp_hseq>
+      <Hsp_midline>MQTGTVRKAVIPAAGFGTRLFPATRVVQKALLPVPDGRGGLAPAVQMIAEEALAGGVETVII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_155750817.1|</Hit_id>
+  <Hit_def>UTP--glucose-1-phosphate uridylyltransferase [Scytonema sp. UIC 10036] &gt;gb|MUG99038.1| UTP--glucose-1-phosphate uridylyltransferase [Scytonema sp. UIC 10036]</Hit_def>
+  <Hit_accession>WP_155750817</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>4.28153e-16</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MQTGTVRKAVIPAAGFGTRLFPATRVVQKALLPVPDGRGGLAPAVQMIAEEALAGGVETV</Hsp_qseq>
+      <Hsp_hseq>MQQSKVRKAVIPAAGFGTRLFPATKVVKKELFPIVDRDGKVKPAILAIVEEAIAGGIEEI</Hsp_hseq>
+      <Hsp_midline>MQ   VRKAVIPAAGFGTRLFPAT+VV+K L P+ D  G + PA+  I EEA+AGG+E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_016878047.1|</Hit_id>
+  <Hit_def>UTP--glucose-1-phosphate uridylyltransferase [Chlorogloeopsis fritschii]</Hit_def>
+  <Hit_accession>WP_016878047</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>5.98985e-16</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MQTGTVRKAVIPAAGFGTRLFPATRVVQKALLPVPDGRGGLAPAVQMIAEEALAGGVETV</Hsp_qseq>
+      <Hsp_hseq>MQKKQVRKAVIPAAGFGTRLFPATKVVKKELFPIIDKDGRAKPAIQLIIEEAFSAGIEEV</Hsp_hseq>
+      <Hsp_midline>MQ   VRKAVIPAAGFGTRLFPAT+VV+K L P+ D  G   PA+Q+I EEA + G+E V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_127011272.1|</Hit_id>
+  <Hit_def>UTP--glucose-1-phosphate uridylyltransferase [Chlorogloeopsis fritschii] &gt;gb|RUR85782.1| UTP--glucose-1-phosphate uridylyltransferase [Chlorogloeopsis fritschii PCC 6912]</Hit_def>
+  <Hit_accession>WP_127011272</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>6.24324e-16</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MQTGTVRKAVIPAAGFGTRLFPATRVVQKALLPVPDGRGGLAPAVQMIAEEALAGGVETV</Hsp_qseq>
+      <Hsp_hseq>MQKKQVRKAVIPAAGFGTRLFPATKVVKKELFPIIDKDGRAKPAIQLIIEEAFSAGIEEV</Hsp_hseq>
+      <Hsp_midline>MQ   VRKAVIPAAGFGTRLFPAT+VV+K L P+ D  G   PA+Q+I EEA + G+E V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_017320280.1|</Hit_id>
+  <Hit_def>UTP--glucose-1-phosphate uridylyltransferase [cyanobacterium PCC 7702]</Hit_def>
+  <Hit_accession>WP_017320280</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>1.36991e-15</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MQTGTVRKAVIPAAGFGTRLFPATRVVQKALLPVPDGRGGLAPAVQMIAEEALAGGVETV</Hsp_qseq>
+      <Hsp_hseq>MQTKQVKKAVIPAAGFGTRLFPATKVVKKELFPILDKDGRAKPVIQLIVEEAINAGIEEI</Hsp_hseq>
+      <Hsp_midline>MQT  V+KAVIPAAGFGTRLFPAT+VV+K L P+ D  G   P +Q+I EEA+  G+E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|NEO10130.1|</Hit_id>
+  <Hit_def>UTP--glucose-1-phosphate uridylyltransferase [Moorea sp. SIO3I8]</Hit_def>
+  <Hit_accession>NEO10130</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>2.24903e-15</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MQTGTVRKAVIPAAGFGTRLFPATRVVQKALLPVPDGRGGLAPAVQMIAEEALAGGVETV</Hsp_qseq>
+      <Hsp_hseq>MQTNNVRKAVIPAAGFGTRLFPATKVVKKELFPIIDRDGRAKPVIMAIVEEAVSAGIEEV</Hsp_hseq>
+      <Hsp_midline>MQT  VRKAVIPAAGFGTRLFPAT+VV+K L P+ D  G   P +  I EEA++ G+E V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|NES93448.1|</Hit_id>
+  <Hit_def>UTP--glucose-1-phosphate uridylyltransferase [Okeania sp. SIO2B9]</Hit_def>
+  <Hit_accession>NES93448</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>2.44337e-15</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>VRKAVIPAAGFGTRLFPATRVVQKALLPVPDGRGGLAPAVQMIAEEALAGGVETV</Hsp_qseq>
+      <Hsp_hseq>VRKAVIPAAGFGTRMFPATKVVKKELFPIIDKDGRAKPIIQIIVEEAISAGIENV</Hsp_hseq>
+      <Hsp_midline>VRKAVIPAAGFGTR+FPAT+VV+K L P+ D  G   P +Q+I EEA++ G+E V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|NET84352.1|</Hit_id>
+  <Hit_def>UTP--glucose-1-phosphate uridylyltransferase [Moorea sp. SIO1F2]</Hit_def>
+  <Hit_accession>NET84352</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>2.49561e-15</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MQTGTVRKAVIPAAGFGTRLFPATRVVQKALLPVPDGRGGLAPAVQMIAEEALAGGVETV</Hsp_qseq>
+      <Hsp_hseq>MQTNNVRKAVIPAAGFGTRLFPATKVVKKELFPIIDRDGRAKPVIMAIVEEAVSAGIEEV</Hsp_hseq>
+      <Hsp_midline>MQT  VRKAVIPAAGFGTRLFPAT+VV+K L P+ D  G   P +  I EEA++ G+E V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|NEO93541.1|</Hit_id>
+  <Hit_def>UTP--glucose-1-phosphate uridylyltransferase [Moorea sp. SIO3G5]</Hit_def>
+  <Hit_accession>NEO93541</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>3.21939e-15</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MQTGTVRKAVIPAAGFGTRLFPATRVVQKALLPVPDGRGGLAPAVQMIAEEALAGGVETV</Hsp_qseq>
+      <Hsp_hseq>MQTNNVRKAVIPAAGFGTRLFPATKVVKKELFPIIDRDGRAKPVIMAIVEEAVSAGIEEV</Hsp_hseq>
+      <Hsp_midline>MQT  VRKAVIPAAGFGTRLFPAT+VV+K L P+ D  G   P +  I EEA++ G+E V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|NEQ82271.1|</Hit_id>
+  <Hit_def>UTP--glucose-1-phosphate uridylyltransferase [Moorea sp. SIO2I5]</Hit_def>
+  <Hit_accession>NEQ82271</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>5.75802e-15</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MQTGTVRKAVIPAAGFGTRLFPATRVVQKALLPVPDGRGGLAPAVQMIAEEALAGGVETV</Hsp_qseq>
+      <Hsp_hseq>MQTNNVRKAVIPAAGFGTRLFPATKVVKKELFPIIDRDGRAKPVIMAIVEEAVSAGIEEV</Hsp_hseq>
+      <Hsp_midline>MQT  VRKAVIPAAGFGTRLFPAT+VV+K L P+ D  G   P +  I EEA++ G+E V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>285796324</Statistics_db-num>
+      <Statistics_db-len>102865278292</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

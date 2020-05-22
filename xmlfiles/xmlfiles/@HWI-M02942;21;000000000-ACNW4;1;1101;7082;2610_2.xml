@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_5271</BlastOutput_query-ID>
+  <BlastOutput_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:7082:2610_2</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_5271</Iteration_query-ID>
+  <Iteration_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:7082:2610_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|RYZ82472.1|</Hit_id>
+  <Hit_def>Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB, partial [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>RYZ82472</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>4.95286e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LNRIHLEEDAGKSLHDVHPDMTCIEYNRAGTALVEIVTEPEIHSSETAYSYLTELRKLVRYLGVCDGNMEEGSMRCDANISIRPKGSKKLGIKVEVKNLN</Hsp_qseq>
+      <Hsp_hseq>LNRIHLEEDAGKSLHDVAPDATCVDYNRAGVALVEIVTEPCLSSGEDAYVYLTELRKLLRYLEVCDGNMEEGSMRCDANISVRRKGETTLGTKVEVKNLN</Hsp_hseq>
+      <Hsp_midline>LNRIHLEEDAGKSLHDV PD TC++YNRAG ALVEIVTEP + S E AY YLTELRKL+RYL VCDGNMEEGSMRCDANIS+R KG   LG KVEVKNLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>tpg|HGG32805.1|</Hit_id>
+  <Hit_def>Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB [Chitinophagaceae bacterium]</Hit_def>
+  <Hit_accession>HGG32805</Hit_accession>
+  <Hit_len>488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.859</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>3.23178e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LNRIHLEEDAGKSLHDVHPDMTCIEYNRAGTALVEIVTEPEIHSSETAYSYLTELRKLVRYLGVCDGNMEEGSMRCDANISIRPKGSKKLGIKVEVKNLN</Hsp_qseq>
+      <Hsp_hseq>LNRIHLEEDAGKSLHDVDPENTSVDLNRAGVPLIEMVTEPVIHSGEEAYAYLTEVRKLLRYLGVCDGNMEEGSMRCDANISIRKKGEKKLGTKVEVKNLN</Hsp_hseq>
+      <Hsp_midline>LNRIHLEEDAGKSLHDV P+ T ++ NRAG  L+E+VTEP IHS E AY+YLTE+RKL+RYLGVCDGNMEEGSMRCDANISIR KG KKLG KVEVKNLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_169424210.1|</Hit_id>
+  <Hit_def>Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB [Pseudoflavitalea sp. G-6-1-2] &gt;gb|NML20400.1| Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB [Pseudoflavitalea sp. G-6-1-2]</Hit_def>
+  <Hit_accession>WP_169424210</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.088</Hsp_bit-score>
+      <Hsp_score>427</Hsp_score>
+      <Hsp_evalue>5.90077e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LNRIHLEEDAGKSLHDVHPDMTCIEYNRAGTALVEIVTEPEIHSSETAYSYLTELRKLVRYLGVCDGNMEEGSMRCDANISIRPKGSKKLGIKVEVKNLN</Hsp_qseq>
+      <Hsp_hseq>LNRIHMEEDAGKSIHDVDPENTCVDYNRAGVPLLEIVTDPVIRSSDEAFAYLTELRKLVRYLGICDGNMEEGSMRCDANISVRKKGDPKLGTKVEVKNLN</Hsp_hseq>
+      <Hsp_midline>LNRIH+EEDAGKS+HDV P+ TC++YNRAG  L+EIVT+P I SS+ A++YLTELRKLVRYLG+CDGNMEEGSMRCDANIS+R KG  KLG KVEVKNLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_127129161.1|</Hit_id>
+  <Hit_def>Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB [Pseudoflavitalea rhizosphaerae]</Hit_def>
+  <Hit_accession>WP_127129161</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.088</Hsp_bit-score>
+      <Hsp_score>427</Hsp_score>
+      <Hsp_evalue>6.55107e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LNRIHLEEDAGKSLHDVHPDMTCIEYNRAGTALVEIVTEPEIHSSETAYSYLTELRKLVRYLGVCDGNMEEGSMRCDANISIRPKGSKKLGIKVEVKNLN</Hsp_qseq>
+      <Hsp_hseq>LNRIHMEEDAGKSLHDVDPENTCVDYNRAGVPLLEIVTDPVIRSGEEAYAYLTELRKLLRYLGICDGNMEEGSMRCDANVSVRKKGDTKLGTKVEVKNLN</Hsp_hseq>
+      <Hsp_midline>LNRIH+EEDAGKSLHDV P+ TC++YNRAG  L+EIVT+P I S E AY+YLTELRKL+RYLG+CDGNMEEGSMRCDAN+S+R KG  KLG KVEVKNLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|OJW56948.1|</Hit_id>
+  <Hit_def>glutaminyl-tRNA synthase (glutamine-hydrolyzing) subunit B [Sphingobacteriales bacterium 50-39]</Hit_def>
+  <Hit_accession>OJW56948</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>7.41554e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LNRIHLEEDAGKSLHDVHPDMTCIEYNRAGTALVEIVTEPEIHSSETAYSYLTELRKLVRYLGVCDGNMEEGSMRCDANISIRPKGSKKLGIKVEVKNLN</Hsp_qseq>
+      <Hsp_hseq>LNRIHLEEDAGKSIHDVDAENTCVDYNRAGVPLIEIVTEPDLRSGDEAYAYLTELRKIVRYLGICDGNMEEGSMRCDANVSIRPKGATVLGTKVEVKNLN</Hsp_hseq>
+      <Hsp_midline>LNRIHLEEDAGKS+HDV  + TC++YNRAG  L+EIVTEP++ S + AY+YLTELRK+VRYLG+CDGNMEEGSMRCDAN+SIRPKG+  LG KVEVKNLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_136578904.1|</Hit_id>
+  <Hit_def>Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB [Niastella caeni] &gt;gb|THU37231.1| Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB [Niastella caeni]</Hit_def>
+  <Hit_accession>WP_136578904</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>8.18192e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LNRIHLEEDAGKSLHDVHPDMTCIEYNRAGTALVEIVTEPEIHSSETAYSYLTELRKLVRYLGVCDGNMEEGSMRCDANISIRPKGSKKLGIKVEVKNLN</Hsp_qseq>
+      <Hsp_hseq>LNRIHMEEDAGKSLHDVDANNTCVDYNRAGVPLVEIVTEPDIHSGDEAYAYLTELRKLLRYLEICDGNMEEGSMRCDANISVRKKGDPKLGTKVEVKNLN</Hsp_hseq>
+      <Hsp_midline>LNRIH+EEDAGKSLHDV  + TC++YNRAG  LVEIVTEP+IHS + AY+YLTELRKL+RYL +CDGNMEEGSMRCDANIS+R KG  KLG KVEVKNLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_098193252.1|</Hit_id>
+  <Hit_def>Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB [Chitinophaga caeni] &gt;gb|ATL46866.1| Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase GatCAB subunit B [Chitinophaga caeni]</Hit_def>
+  <Hit_accession>WP_098193252</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>9.3302e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LNRIHLEEDAGKSLHDVHPDMTCIEYNRAGTALVEIVTEPEIHSSETAYSYLTELRKLVRYLGVCDGNMEEGSMRCDANISIRPKGSKKLGIKVEVKNLN</Hsp_qseq>
+      <Hsp_hseq>LNRIHLEEDAGKSIHDLDPAYTYVDYNRAGVPLVEIVTEPCIHNAEDAYSYLTELRRLVRYIEVCDGNMEEGSMRCDANISIRPKGETKLGTKVEVKNMN</Hsp_hseq>
+      <Hsp_midline>LNRIHLEEDAGKS+HD+ P  T ++YNRAG  LVEIVTEP IH++E AYSYLTELR+LVRY+ VCDGNMEEGSMRCDANISIRPKG  KLG KVEVKN+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_081201050.1|</Hit_id>
+  <Hit_def>Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB [Niastella yeongjuensis] &gt;gb|OQP47042.1| aspartyl/glutamyl-tRNA amidotransferase subunit B [Niastella yeongjuensis] &gt;emb|SEN66858.1| aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B [Niastella yeongjuensis]</Hit_def>
+  <Hit_accession>WP_081201050</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>9.55991e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LNRIHLEEDAGKSLHDVHPDMTCIEYNRAGTALVEIVTEPEIHSSETAYSYLTELRKLVRYLGVCDGNMEEGSMRCDANISIRPKGSKKLGIKVEVKNLN</Hsp_qseq>
+      <Hsp_hseq>LNRIHMEEDAGKSLHDVDAKNTCVDYNRAGVPLVEIVTEPDIHSGDEAYAYLTELRKLLRYLEICDGNMEEGSMRCDANISVRKKGDTKLGTKVEVKNLN</Hsp_hseq>
+      <Hsp_midline>LNRIH+EEDAGKSLHDV    TC++YNRAG  LVEIVTEP+IHS + AY+YLTELRKL+RYL +CDGNMEEGSMRCDANIS+R KG  KLG KVEVKNLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_014221875.1|</Hit_id>
+  <Hit_def>Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB [Niastella koreensis] &gt;gb|AEW01964.1| aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B [Niastella koreensis GR20-10] &gt;gb|OQP48660.1| aspartyl/glutamyl-tRNA amidotransferase subunit B [Niastella koreensis]</Hit_def>
+  <Hit_accession>WP_014221875</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.318</Hsp_bit-score>
+      <Hsp_score>425</Hsp_score>
+      <Hsp_evalue>1.09698e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LNRIHLEEDAGKSLHDVHPDMTCIEYNRAGTALVEIVTEPEIHSSETAYSYLTELRKLVRYLGVCDGNMEEGSMRCDANISIRPKGSKKLGIKVEVKNLN</Hsp_qseq>
+      <Hsp_hseq>LNRIHMEEDAGKSLHDVDPKNTCVDLNRAGVPLVEIVTEPDIHSGDEAYAYLTELRKLLRYLEICDGNMEEGSMRCDANISVRKKGDTKLGTKVEVKNLN</Hsp_hseq>
+      <Hsp_midline>LNRIH+EEDAGKSLHDV P  TC++ NRAG  LVEIVTEP+IHS + AY+YLTELRKL+RYL +CDGNMEEGSMRCDANIS+R KG  KLG KVEVKNLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_119053059.1|</Hit_id>
+  <Hit_def>Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB [Paraflavitalea soli] &gt;gb|AXY77183.1| Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB [Paraflavitalea soli]</Hit_def>
+  <Hit_accession>WP_119053059</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.933</Hsp_bit-score>
+      <Hsp_score>424</Hsp_score>
+      <Hsp_evalue>1.50195e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LNRIHLEEDAGKSLHDVHPDMTCIEYNRAGTALVEIVTEPEIHSSETAYSYLTELRKLVRYLGVCDGNMEEGSMRCDANISIRPKGSKKLGIKVEVKNLN</Hsp_qseq>
+      <Hsp_hseq>LNRIHMEEDAGKSIHDADPNSTCVDYNRAGVPLVEIVTEPDIRSGDEAYAYLTELRKLLRYLAICDGNMEEGSMRCDANISVRKKGDAKLGTKVEVKNLN</Hsp_hseq>
+      <Hsp_midline>LNRIH+EEDAGKS+HD  P+ TC++YNRAG  LVEIVTEP+I S + AY+YLTELRKL+RYL +CDGNMEEGSMRCDANIS+R KG  KLG KVEVKNLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>285796324</Statistics_db-num>
+      <Statistics_db-len>102865278292</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

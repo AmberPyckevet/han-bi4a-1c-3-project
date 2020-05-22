@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3809</BlastOutput_query-ID>
+  <BlastOutput_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:15476:2597_2</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3809</Iteration_query-ID>
+  <Iteration_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:15476:2597_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_161810388.1|</Hit_id>
+  <Hit_def>MULTISPECIES: fibronectin type III domain-containing protein [unclassified Steroidobacter] &gt;dbj|GFE78490.1| hypothetical protein GCM10011487_04900 [Steroidobacter sp. YU21-B] &gt;dbj|GFE89578.1| hypothetical protein GCM10011488_45320 [Steroidobacter sp. SA29-B]</Hit_def>
+  <Hit_accession>WP_161810388</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>1.89557e-27</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>GPGAWPWTPPTTNTDGTPPTNLAGYRIYYGTSANALRRQIQVANPGLSTYVISDLSRGTWYFAVRAYNTAGVESDSSNVVSKTIR</Hsp_qseq>
+      <Hsp_hseq>GSATLSWTPPTSNTNGTTLTNLAGYRIYYGTSSSSLNRTIQVANAGVTRYVVPDLSAGTWYFAVRAYSSTGGESANSNTASKTIR</Hsp_hseq>
+      <Hsp_midline>G     WTPPT+NT+GT  TNLAGYRIYYGTS+++L R IQVAN G++ YV+ DLS GTWYFAVRAY++ G ES +SN  SKTIR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|PZN31525.1|</Hit_id>
+  <Hit_def>hypothetical protein DIU71_09725 [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>PZN31525</Hit_accession>
+  <Hit_len>577</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>1.88701e-26</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>487</Hsp_hit-from>
+      <Hsp_hit-to>577</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>VVQGTGGPGAWPWTPPTTNTDGTPPTNLAGYRIYYGTSANALRRQIQVANPGLSTYVISDLSRGTWYFAVRAYNTAGVESDSSNVVSKTIR</Hsp_qseq>
+      <Hsp_hseq>VTQPTVGRATLSWMPPTQNTDGSPLNDLAGYRIVYGTNSRSLDRSVQITNPSVNNYVLEDLGPGTWYFAVKAYNTAGIESELSNIASKTIR</Hsp_hseq>
+      <Hsp_midline>V Q T G     W PPT NTDG+P  +LAGYRI YGT++ +L R +Q+ NP ++ YV+ DL  GTWYFAV+AYNTAG+ES+ SN+ SKTIR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_116807505.1|</Hit_id>
+  <Hit_def>fibronectin type III domain-containing protein [Steroidobacter cummioxidans]</Hit_def>
+  <Hit_accession>WP_116807505</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>2.88012e-26</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>229</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>GPGAWPWTPPTTNTDGTPPTNLAGYRIYYGTSANALRRQIQVANPGLSTYVISDLSRGTWYFAVRAYNTAGVESDSSNVVSKTIR</Hsp_qseq>
+      <Hsp_hseq>GSATLSWTPPTSNTNGSTLSNLAGYRIYYGTSSSNLSRTIQVANAGVTRYVVPDLSAGTWYFAVRAYTSNGAESTNSNTASKTIR</Hsp_hseq>
+      <Hsp_midline>G     WTPPT+NT+G+  +NLAGYRIYYGTS++ L R IQVAN G++ YV+ DLS GTWYFAVRAY + G ES +SN  SKTIR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|PZN76247.1|</Hit_id>
+  <Hit_def>hypothetical protein DIU56_14610 [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>PZN76247</Hit_accession>
+  <Hit_len>530</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>6.45351e-26</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>433</Hsp_hit-from>
+      <Hsp_hit-to>530</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>LPPGPRRVVQGTGGPGAWPWTPPTTNTDGTPPTNLAGYRIYYGTSANALRRQIQVANPGLSTYVISDLSRGTWYFAVRAYNTAGVESDSSNVVSKTIR</Hsp_qseq>
+      <Hsp_hseq>LPPFSITVNEIATGSVTLTWTPPTENTDGSQLTNLAGYRIYYGTSPGTLDRSAQVANPGLTSYVIENLSPGTWYFAISSYTTAGIESVRSNPVSATVR</Hsp_hseq>
+      <Hsp_midline>LPP    V +   G     WTPPT NTDG+  TNLAGYRIYYGTS   L R  QVANPGL++YVI +LS GTWYFA+ +Y TAG+ES  SN VS T+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|NLG75365.1|</Hit_id>
+  <Hit_def>hypothetical protein [Xanthomonadaceae bacterium]</Hit_def>
+  <Hit_accession>NLG75365</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>6.96398e-26</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>272</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>WTPPTTNTDGTPPTNLAGYRIYYGTSANALRRQIQVANPGLSTYVISDLSRGTWYFAVRAYNTAGVESDSSNVVSKTIR</Hsp_qseq>
+      <Hsp_hseq>WTAPTQNTDGSALTNLAGYRIHYGTSAGVLSQTIQINNAGLTTYVIDDLAPGTYYFAVRAFTASGTESELSNVVSKTIR</Hsp_hseq>
+      <Hsp_midline>WT PT NTDG+  TNLAGYRI+YGTSA  L + IQ+ N GL+TYVI DL+ GT+YFAVRA+  +G ES+ SNVVSKTIR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_129776060.1|</Hit_id>
+  <Hit_def>fibronectin type III domain-containing protein [Steroidobacter sp. JW-3]</Hit_def>
+  <Hit_accession>WP_129776060</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>1.34271e-24</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>GPGAWPWTPPTTNTDGTPPTNLAGYRIYYGTSANALRRQIQVANPGLSTYVISDLSRGTWYFAVRAYNTAGVESDSSNVVSKTIR</Hsp_qseq>
+      <Hsp_hseq>GSATLSWTPPTSNTNGSTLSNLAGYRIYYGTSSSNLSRTIQVANAGMTRYVVPDLAAGTWYFAIRSYTTTGAESANSNTGSKVVR</Hsp_hseq>
+      <Hsp_midline>G     WTPPT+NT+G+  +NLAGYRIYYGTS++ L R IQVAN G++ YV+ DL+ GTWYFA+R+Y T G ES +SN  SK +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|TLZ03760.1|</Hit_id>
+  <Hit_def>hypothetical protein E6K36_06705, partial [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>TLZ03760</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>1.58801e-24</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>VVQGTGGPGAWPWTPPTTNTDGTPPTNLAGYRIYYGTSANALRRQIQVANPGLSTYVISDLSRGTWYFAVRAYNTAGVESDSSNVVSKTI</Hsp_qseq>
+      <Hsp_hseq>VTQVANGSATVSWSAPTQNTDGSALTNLAGFNIYYGTSAGNLSQSVQIANPGLTTYALGNLAPGAWYFAVNAYTTAGAESALSSIASKTI</Hsp_hseq>
+      <Hsp_midline>V Q   G     W+ PT NTDG+  TNLAG+ IYYGTSA  L + +Q+ANPGL+TY + +L+ G WYFAV AY TAG ES  S++ SKTI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|NLG74616.1|</Hit_id>
+  <Hit_def>hypothetical protein [Xanthomonadaceae bacterium]</Hit_def>
+  <Hit_accession>NLG74616</Hit_accession>
+  <Hit_len>402</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>2.23091e-24</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>LPPGPRRVVQGTGGPGAWPWTPPTTNTDGTPPTNLAGYRIYYGTSANALRRQIQVANPGLSTYVISDLSRGTWYFAVRAYNTAGVESDSSNVVSKTI</Hsp_qseq>
+      <Hsp_hseq>LPAFTITVNGATTGSATLSWRAPTENVDGSPLTNLAGYRVAYGRSASSLTTVEELANPGLTTHTVSGLSSGTWYFAVRAYTTSGVESDLSNVASKTI</Hsp_hseq>
+      <Hsp_midline>LP     V   T G     W  PT N DG+P TNLAGYR+ YG SA++L    ++ANPGL+T+ +S LS GTWYFAVRAY T+GVESD SNV SKTI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_157071813.1|</Hit_id>
+  <Hit_def>putative Ig domain-containing protein [Steroidobacter denitrificans]</Hit_def>
+  <Hit_accession>WP_157071813</Hit_accession>
+  <Hit_len>610</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>3.11653e-24</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>513</Hsp_hit-from>
+      <Hsp_hit-to>609</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>LPPGPRRVVQGTGGPGAWPWTPPTTNTDGTPPTNLAGYRIYYGTSANALRRQIQVANPGLSTYVISDLSRGTWYFAVRAYNTAGVESDSSNVVSKTI</Hsp_qseq>
+      <Hsp_hseq>LPAFMITVVKSSTGVATVQWTPPTENSDGTPLTDLAGFRVKYGKSASTLDQTADIENPGVATYVVEDLTSGTWYFAVLAYTSSGIESGLSNIASKTI</Hsp_hseq>
+      <Hsp_midline>LP     VV+ + G     WTPPT N+DGTP T+LAG+R+ YG SA+ L +   + NPG++TYV+ DL+ GTWYFAV AY ++G+ES  SN+ SKTI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|AMN48237.1|</Hit_id>
+  <Hit_def>hypothetical protein ACG33_14250 [Steroidobacter denitrificans]</Hit_def>
+  <Hit_accession>AMN48237</Hit_accession>
+  <Hit_len>571</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>3.36385e-24</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>474</Hsp_hit-from>
+      <Hsp_hit-to>570</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>LPPGPRRVVQGTGGPGAWPWTPPTTNTDGTPPTNLAGYRIYYGTSANALRRQIQVANPGLSTYVISDLSRGTWYFAVRAYNTAGVESDSSNVVSKTI</Hsp_qseq>
+      <Hsp_hseq>LPAFMITVVKSSTGVATVQWTPPTENSDGTPLTDLAGFRVKYGKSASTLDQTADIENPGVATYVVEDLTSGTWYFAVLAYTSSGIESGLSNIASKTI</Hsp_hseq>
+      <Hsp_midline>LP     VV+ + G     WTPPT N+DGTP T+LAG+R+ YG SA+ L +   + NPG++TYV+ DL+ GTWYFAV AY ++G+ES  SN+ SKTI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>285796324</Statistics_db-num>
+      <Statistics_db-len>102865278292</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

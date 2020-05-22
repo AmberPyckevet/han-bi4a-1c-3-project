@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_43849</BlastOutput_query-ID>
+  <BlastOutput_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:7768:2592_1</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_43849</Iteration_query-ID>
+  <Iteration_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:7768:2592_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_153617813.1|</Hit_id>
+  <Hit_def>pyruvate, phosphate dikinase [Planctomycetes bacterium]</Hit_def>
+  <Hit_accession>WP_153617813</Hit_accession>
+  <Hit_len>897</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>4.57398e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>669</Hsp_hit-from>
+      <Hsp_hit-to>766</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VRQLRGANPMPGHGGGRVAGTCPPILEMQVRAIVEAAIAVGRGRIRARPEIMIPLVGTAEELRQLRELAVATIEKVRAERRYSGRLDIPVGTMIEVPR</Hsp_qseq>
+      <Hsp_hseq>VDQLHEMNPMLGHRGCRLAVTYPEILKMQVRAIVEAMIACKKKKIDARPEIMIPLVGTSQELEMLRELTAATIGEVRAAKKYSGKLDIPIGTMIEIPR</Hsp_hseq>
+      <Hsp_midline>V QL   NPM GH G R+A T P IL+MQVRAIVEA IA  + +I ARPEIMIPLVGT++EL  LREL  ATI +VRA ++YSG+LDIP+GTMIE+PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>tpg|HAW95980.1|</Hit_id>
+  <Hit_def>pyruvate, phosphate dikinase [Phycisphaerales bacterium]</Hit_def>
+  <Hit_accession>HAW95980</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.176</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>5.70267e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VRQLRGANPMPGHGGGRVAGTCPPILEMQVRAIVEAAIAVGRGRIRARPEIMIPLVGTAEELRQLRELAVATIEKVRAERRYSGRLDIPVGTMIEVPR</Hsp_qseq>
+      <Hsp_hseq>VDQLHEMNPMLGHRGCRLAVTYPEILKMQVRAIVEAMIACKKKRIDARPEIMIPLVGTSQELEMLRELTEATIAEVRAAKKYTGKLNIPIGTMIEIPR</Hsp_hseq>
+      <Hsp_midline>V QL   NPM GH G R+A T P IL+MQVRAIVEA IA  + RI ARPEIMIPLVGT++EL  LREL  ATI +VRA ++Y+G+L+IP+GTMIE+PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|NBC11217.1|</Hit_id>
+  <Hit_def>pyruvate, phosphate dikinase [Planctomycetes bacterium]</Hit_def>
+  <Hit_accession>NBC11217</Hit_accession>
+  <Hit_len>910</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>7.96536e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>690</Hsp_hit-from>
+      <Hsp_hit-to>787</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VRQLRGANPMPGHGGGRVAGTCPPILEMQVRAIVEAAIAVGRGRIRARPEIMIPLVGTAEELRQLRELAVATIEKVRAERRYSGRLDIPVGTMIEVPR</Hsp_qseq>
+      <Hsp_hseq>VAQLHEMNPMLGHRGCRLSVTYPEILEMQVRAIVEAAINCKQKKIDARPEIMIPLVGTSNELRMLRELALATIDTVKAEKNFRGKLEIPVGTMIEIPR</Hsp_hseq>
+      <Hsp_midline>V QL   NPM GH G R++ T P ILEMQVRAIVEAAI   + +I ARPEIMIPLVGT+ ELR LRELA+ATI+ V+AE+ + G+L+IPVGTMIE+PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|OUT67975.1|</Hit_id>
+  <Hit_def>pyruvate, phosphate dikinase [Planctomycetaceae bacterium TMED10]</Hit_def>
+  <Hit_accession>OUT67975</Hit_accession>
+  <Hit_len>887</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>1.34289e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>664</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VRQLRGANPMPGHGGGRVAGTCPPILEMQVRAIVEAAIAVGRGRIRARPEIMIPLVGTAEELRQLRELAVATIEKVRAERRYSGRLDIPVGTMIEVPR</Hsp_qseq>
+      <Hsp_hseq>VEQLHEMNPMLGHRGCRLAVTYPEILEMQVTAIVEAMIACKKKKVDARPEIMIPLVGTAAELETLRKLTAETIDKVKAAKKYSGKLDIPIGTMIEIPR</Hsp_hseq>
+      <Hsp_midline>V QL   NPM GH G R+A T P ILEMQV AIVEA IA  + ++ ARPEIMIPLVGTA EL  LR+L   TI+KV+A ++YSG+LDIP+GTMIE+PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBB47955.1|</Hit_id>
+  <Hit_def>pyruvate, phosphate dikinase [Phycisphaerae bacterium]</Hit_def>
+  <Hit_accession>MBB47955</Hit_accession>
+  <Hit_len>897</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>2.75785e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>669</Hsp_hit-from>
+      <Hsp_hit-to>766</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VRQLRGANPMPGHGGGRVAGTCPPILEMQVRAIVEAAIAVGRGRIRARPEIMIPLVGTAEELRQLRELAVATIEKVRAERRYSGRLDIPVGTMIEVPR</Hsp_qseq>
+      <Hsp_hseq>VDQLHEMNPMLGHRGCRLAVTYPEILKMQVRAIVEAMIACKKKRIDARPEIMIPLVGTSQELEMLRELTEATIAEVRAAKKYTGKLNIPIGTMIEIPR</Hsp_hseq>
+      <Hsp_midline>V QL   NPM GH G R+A T P IL+MQVRAIVEA IA  + RI ARPEIMIPLVGT++EL  LREL  ATI +VRA ++Y+G+L+IP+GTMIE+PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MBP86525.1|</Hit_id>
+  <Hit_def>pyruvate, phosphate dikinase [Planctomycetaceae bacterium]</Hit_def>
+  <Hit_accession>MBP86525</Hit_accession>
+  <Hit_len>891</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>3.87222e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>668</Hsp_hit-from>
+      <Hsp_hit-to>765</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VRQLRGANPMPGHGGGRVAGTCPPILEMQVRAIVEAAIAVGRGRIRARPEIMIPLVGTAEELRQLRELAVATIEKVRAERRYSGRLDIPVGTMIEVPR</Hsp_qseq>
+      <Hsp_hseq>VAQLHEANPMLGHRGCRLSITYPEILEMQVRAIVEAAIACKQKKIDAHPEIMIPLVGTVAELSTLRSLAAATIEQVKADKKFRGKLDISIGTMIEIPR</Hsp_hseq>
+      <Hsp_midline>V QL  ANPM GH G R++ T P ILEMQVRAIVEAAIA  + +I A PEIMIPLVGT  EL  LR LA ATIE+V+A++++ G+LDI +GTMIE+PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>tpg|HHK42777.1|</Hit_id>
+  <Hit_def>pyruvate, phosphate dikinase [Planctomycetaceae bacterium]</Hit_def>
+  <Hit_accession>HHK42777</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>5.06682e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VRQLRGANPMPGHGGGRVAGTCPPILEMQVRAIVEAAIAVGRGRIRARPEIMIPLVGTAEELRQLRELAVATIEKVRAERRYSGRLDIPVGTMIEVPR</Hsp_qseq>
+      <Hsp_hseq>VEQLHEMNPMLGHRGCRLSITYPEILEMQVRAIVEAAIACKKKRIDAKPEIMIPLVGMATELEYLRQRAADVIETVKREKKYGGKLDIPIGTMIEVPR</Hsp_hseq>
+      <Hsp_midline>V QL   NPM GH G R++ T P ILEMQVRAIVEAAIA  + RI A+PEIMIPLVG A EL  LR+ A   IE V+ E++Y G+LDIP+GTMIEVPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_155797610.1|</Hit_id>
+  <Hit_def>pyruvate, phosphate dikinase, partial [Planctomycetaceae bacterium]</Hit_def>
+  <Hit_accession>WP_155797610</Hit_accession>
+  <Hit_len>868</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>5.53055e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>645</Hsp_hit-from>
+      <Hsp_hit-to>742</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VRQLRGANPMPGHGGGRVAGTCPPILEMQVRAIVEAAIAVGRGRIRARPEIMIPLVGTAEELRQLRELAVATIEKVRAERRYSGRLDIPVGTMIEVPR</Hsp_qseq>
+      <Hsp_hseq>VEQLHEMNPMLGHRGCRLAVTYPEILEMQVTAIVEAMIACKKKKVDARPEIMIPLIGTAAELETLRQLTTETIARVKEAKKYSGKLDIPVGTMIEIPR</Hsp_hseq>
+      <Hsp_midline>V QL   NPM GH G R+A T P ILEMQV AIVEA IA  + ++ ARPEIMIPL+GTA EL  LR+L   TI +V+  ++YSG+LDIPVGTMIE+PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|NIP87224.1|</Hit_id>
+  <Hit_def>pyruvate, phosphate dikinase [Planctomycetales bacterium]</Hit_def>
+  <Hit_accession>NIP87224</Hit_accession>
+  <Hit_len>836</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>1.23399e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>612</Hsp_hit-from>
+      <Hsp_hit-to>709</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VRQLRGANPMPGHGGGRVAGTCPPILEMQVRAIVEAAIAVGRGRIRARPEIMIPLVGTAEELRQLRELAVATIEKVRAERRYSGRLDIPVGTMIEVPR</Hsp_qseq>
+      <Hsp_hseq>VSQLHEMNPMLGHRGCRLAVTYPEILEMQVTAIVEATIACKKKKIDARPEIMIPLIGTAAELSKLRGRTLETIAAARAARKYSGKLEIPVGTMIEIPR</Hsp_hseq>
+      <Hsp_midline>V QL   NPM GH G R+A T P ILEMQV AIVEA IA  + +I ARPEIMIPL+GTA EL +LR   + TI   RA R+YSG+L+IPVGTMIE+PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_114368690.1|</Hit_id>
+  <Hit_def>pyruvate, phosphate dikinase [Blastopirellula cremea] &gt;gb|RCS50543.1| pyruvate, phosphate dikinase [Blastopirellula cremea]</Hit_def>
+  <Hit_accession>WP_114368690</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>2.07395e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>666</Hsp_hit-from>
+      <Hsp_hit-to>763</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VRQLRGANPMPGHGGGRVAGTCPPILEMQVRAIVEAAIAVGRGRIRARPEIMIPLVGTAEELRQLRELAVATIEKVRAERRYSGRLDIPVGTMIEVPR</Hsp_qseq>
+      <Hsp_hseq>VSQLHESNPMLGHRGCRLSVTYPEILEMQVTAIVEAAIECKKKRINAMPEIMIPLVGTAAELQLLRAKAEETIEKVKSEASYNGELDILIGTMIEIPR</Hsp_hseq>
+      <Hsp_midline>V QL  +NPM GH G R++ T P ILEMQV AIVEAAI   + RI A PEIMIPLVGTA EL+ LR  A  TIEKV++E  Y+G LDI +GTMIE+PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>285796324</Statistics_db-num>
+      <Statistics_db-len>102865278292</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

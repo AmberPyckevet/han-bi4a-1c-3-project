@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_19491</BlastOutput_query-ID>
+  <BlastOutput_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:17920:2597_1</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_19491</Iteration_query-ID>
+  <Iteration_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:17920:2597_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|NLG74993.1|</Hit_id>
+  <Hit_def>L,D-transpeptidase family protein [Xanthomonadaceae bacterium]</Hit_def>
+  <Hit_accession>NLG74993</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>3.73501e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>YMQAFPVLEDDKRKHPQDAQALVEIVLSDDVRQLLAEHDAEINFELVDDIIANPRGIVVPVSLRGVTVEDVILSARYVENTLPEGAAWDGGDRNFYTAE</Hsp_qseq>
+      <Hsp_hseq>YVQAFPVLEDDEREHPNAAEALLNAAISDEMWQQVKEHGAVLDLELIDRIVSDPRGIAIPVSYRDVTLENLILTARHVENALPEGATWNGSDETFFTAE</Hsp_hseq>
+      <Hsp_midline>Y+QAFPVLEDD+R+HP  A+AL+   +SD++ Q + EH A ++ EL+D I+++PRGI +PVS R VT+E++IL+AR+VEN LPEGA W+G D  F+TAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_116810809.1|</Hit_id>
+  <Hit_def>L,D-transpeptidase family protein [Steroidobacter cummioxidans]</Hit_def>
+  <Hit_accession>WP_116810809</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>1.3979e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>YMQAFPVLEDDKRKHPQDAQALVEIVLSDDVRQLLAEHDAEINFELVDDIIANPRGIVVPVSLRGVTVEDVILSARYVENTLPEGAAWDGGDRNFYTAE</Hsp_qseq>
+      <Hsp_hseq>YVQVFPVLEDDEREHPKGAEELLTAGINDKLSQKLQQHAAAVDLELLNQIIAQPRGIAMPVSRRNVTVETYLANARHVENRVPQGATWNYTEEGLFLAE</Hsp_hseq>
+      <Hsp_midline>Y+Q FPVLEDD+R+HP+ A+ L+   ++D + Q L +H A ++ EL++ IIA PRGI +PVS R VTVE  + +AR+VEN +P+GA W+  +   + AE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_129776662.1|</Hit_id>
+  <Hit_def>L,D-transpeptidase family protein [Steroidobacter sp. JW-3]</Hit_def>
+  <Hit_accession>WP_129776662</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>2.12942e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>YMQAFPVLEDDKRKHPQDAQALVEIVLSDDVRQLLAEHDAEINFELVDDIIANPRGIVVPVSLRGVTVEDVILSARYVENTLPEGAAWDGGDRNFYTAE</Hsp_qseq>
+      <Hsp_hseq>YVQVFPVLEDDQREHPKSAEELLTAGINDRLSQRLQEHGAGIDSALLNQIIAQPRGIAMPISRRNVTVETYLAAARHVENRVPEGATWNYTEEGLFLAE</Hsp_hseq>
+      <Hsp_midline>Y+Q FPVLEDD+R+HP+ A+ L+   ++D + Q L EH A I+  L++ IIA PRGI +P+S R VTVE  + +AR+VEN +PEGA W+  +   + AE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|RPH54801.1|</Hit_id>
+  <Hit_def>LysM peptidoglycan-binding domain-containing protein [Xanthomonadales bacterium]</Hit_def>
+  <Hit_accession>RPH54801</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>2.96871e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>YMQAFPVLEDDKRKHPQDAQALVEIVLSDDVRQLLAEHDAEINFELVDDIIANPRGIVVPVSLRGVTVEDVILSARYVENTLPEGAAWDGGDRNFYTAE</Hsp_qseq>
+      <Hsp_hseq>YAQAFPVMEDDTREHPQAADALLNAAISDEMWRKVKAHNGAVSLDLVNALVEQPRGIATPVSRAGITLNSYIAQSRHVENRVPEGANWNGKDEMLFTAE</Hsp_hseq>
+      <Hsp_midline>Y QAFPV+EDD R+HPQ A AL+   +SD++ + +  H+  ++ +LV+ ++  PRGI  PVS  G+T+   I  +R+VEN +PEGA W+G D   +TAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_129642219.1|</Hit_id>
+  <Hit_def>L,D-transpeptidase family protein [Steroidobacter agariperforans]</Hit_def>
+  <Hit_accession>WP_129642219</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>2.05474e-20</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>YMQAFPVLEDDKRKHPQDAQALVEIVLSDDVRQLLAEHDAEINFELVDDIIANPRGIVVPVSLRGVTVEDVILSARYVENTLPEGAAWDGGDRNFYTAE</Hsp_qseq>
+      <Hsp_hseq>YVQVFPVLEDDEREHPKGAQELLTAGINDKLSQKLQQHAAAVDIELLNQIIAQSRGIAMPISRQNVTTEAYLARARRVENRVPQGATWNYTEEGLFLAE</Hsp_hseq>
+      <Hsp_midline>Y+Q FPVLEDD+R+HP+ AQ L+   ++D + Q L +H A ++ EL++ IIA  RGI +P+S + VT E  +  AR VEN +P+GA W+  +   + AE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_161813008.1|</Hit_id>
+  <Hit_def>MULTISPECIES: L,D-transpeptidase family protein [unclassified Steroidobacter] &gt;dbj|GFE81347.1| hypothetical protein GCM10011487_33470 [Steroidobacter sp. YU21-B] &gt;dbj|GFE88771.1| hypothetical protein GCM10011488_37250 [Steroidobacter sp. SA29-B]</Hit_def>
+  <Hit_accession>WP_161813008</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>1.36232e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>YMQAFPVLEDDKRKHPQDAQALVEIVLSDDVRQLLAEHDAEINFELVDDIIANPRGIVVPVSLRGVTVEDVILSARYVENTLPEGAAWDGGDRNFYTAE</Hsp_qseq>
+      <Hsp_hseq>YVQVFPVLEDDEREHPKGAEELLTAGINDKLSQKLQQHAAAVDVELLNQIIAQSRGIAMPISRQNVTVDAYLARARRVENRVPQGATWNYTEEGLFLAE</Hsp_hseq>
+      <Hsp_midline>Y+Q FPVLEDD+R+HP+ A+ L+   ++D + Q L +H A ++ EL++ IIA  RGI +P+S + VTV+  +  AR VEN +P+GA W+  +   + AE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|PZN33287.1|</Hit_id>
+  <Hit_def>hypothetical protein DIU71_05460 [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>PZN33287</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>2.41665e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>YMQAFPVLEDDKRKHPQDAQALVEIVLSDDVRQLLAEHDAEINFELVDDIIANPRGIVVPVSLRGVTVEDVILS-ARYVENTLPEGAAWDG</Hsp_qseq>
+      <Hsp_hseq>YVQAYPVLEDDEREHPDPAQAVLSAATSDAMWEKIREHNVSLDLELVRALTAEGRGIAVPVTRPQLTVEDFLLADARHVENRLPAGANWDG</Hsp_hseq>
+      <Hsp_midline>Y+QA+PVLEDD+R+HP  AQA++    SD + + + EH+  ++ ELV  + A  RGI VPV+   +TVED +L+ AR+VEN LP GA WDG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_066918151.1|</Hit_id>
+  <Hit_def>L,D-transpeptidase family protein [Steroidobacter denitrificans]</Hit_def>
+  <Hit_accession>WP_066918151</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>2.47015e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>251</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>YMQAFPVLEDDKRKHPQDAQALVEIVLSDDVRQLLAEHDAEINFELVDDIIANPRGIVVPVSLRGVTVEDVILSARYVENTLPEGAAWDGGDRNFYTAE</Hsp_qseq>
+      <Hsp_hseq>YAQAFPILEDDGRKHPNEASVLMNAAITDGMWKKIKEYGAVVNLARVDEVVEQARGIALPVSRADLAIDAFLADARQVENRLPEGANWDGRDELLVTAE</Hsp_hseq>
+      <Hsp_midline>Y QAFP+LEDD RKHP +A  L+   ++D + + + E+ A +N   VD+++   RGI +PVS   + ++  +  AR VEN LPEGA WDG D    TAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|AMN45822.1|</Hit_id>
+  <Hit_def>hypothetical protein ACG33_01605 [Steroidobacter denitrificans]</Hit_def>
+  <Hit_accession>AMN45822</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>3.52753e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>312</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>YMQAFPVLEDDKRKHPQDAQALVEIVLSDDVRQLLAEHDAEINFELVDDIIANPRGIVVPVSLRGVTVEDVILSARYVENTLPEGAAWDGGDRNFYTAE</Hsp_qseq>
+      <Hsp_hseq>YAQAFPILEDDGRKHPNEASVLMNAAITDGMWKKIKEYGAVVNLARVDEVVEQARGIALPVSRADLAIDAFLADARQVENRLPEGANWDGRDELLVTAE</Hsp_hseq>
+      <Hsp_midline>Y QAFP+LEDD RKHP +A  L+   ++D + + + E+ A +N   VD+++   RGI +PVS   + ++  +  AR VEN LPEGA WDG D    TAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>emb|SFI96068.1|</Hit_id>
+  <Hit_def>L,D-transpeptidase ErfK/SrfK [Nitrosomonas sp. Nm34]</Hit_def>
+  <Hit_accession>SFI96068</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.80534e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>YMQAFPVLEDDKRKHPQDAQALVEIVLSDDVRQLLAEHDAEINFELVDDIIANPRGIVVPVSLRGVTVEDVILSARYVENTLPEGAAWDGG-DRNFYTAE</Hsp_qseq>
+      <Hsp_hseq>YMQAYPILEDDKRNHDQSIKKLLSEVRSTPKAKLDARPKAKINQALLNEVIRKPRALATPITQPNITLSTYLARTTHVRNTLPLNATWDGDMSRQLTAAE</Hsp_hseq>
+      <Hsp_midline>YMQA+P+LEDDKR H Q  + L+  V S    +L A   A+IN  L++++I  PR +  P++   +T+   +    +V NTLP  A WDG   R    AE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>285796324</Statistics_db-num>
+      <Statistics_db-len>102901302284</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

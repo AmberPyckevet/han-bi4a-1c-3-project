@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_53149</BlastOutput_query-ID>
+  <BlastOutput_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:7215:2614_1</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_53149</Iteration_query-ID>
+  <Iteration_query-def>@HWI-M02942:21:000000000-ACNW4:1:1101:7215:2614_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|QJR37865.1|</Hit_id>
+  <Hit_def>Auxin-binding protein [Gemmatimonas sp. TET16]</Hit_def>
+  <Hit_accession>QJR37865</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>2.94526e-38</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>ACMRFARAPQALDYSRTQASAAGVYRASIQPVGDSIPRNRLHSWTVTLATATGIPVDSARIEVDGGMPQHGHGLPTRPRA-RQVAAGEYLVEGMRFN</Hsp_qseq>
+      <Hsp_hseq>GCMMFAKAPSDLDYARTRRSEVGLYVATIHPTGDSIPRGKLHQWTLHLETSAGVPVDSANVSIDGGMPQHGHGLPTKPRVTRALGHGDHMVEGMKFN</Hsp_hseq>
+      <Hsp_midline> CM FA+AP  LDY+RT+ S  G+Y A+I P GDSIPR +LH WT+ L T+ G+PVDSA + +DGGMPQHGHGLPT+PR  R +  G+++VEGM+FN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_025414768.1|</Hit_id>
+  <Hit_def>FixH family protein [Gemmatirosa kalamazoonesis] &gt;gb|AHG93464.1| auxin-binding protein [Gemmatirosa kalamazoonesis]</Hit_def>
+  <Hit_accession>WP_025414768</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>1.29932e-36</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LAACMRFARAPQALDYSRTQASAAGVYRASIQPVGDSIPRNRLHSWTVTLATATGIPVDSARIEVDGGMPQHGHGLPTRPRA-RQVAAGEYLVEGMRFN</Hsp_qseq>
+      <Hsp_hseq>LTGCMLFARPPKDLDYSRTRASEGGRYRATIHPQGDTIPQGKLQRWTLHVETAAGAPVDSAAITVDVGMPQHGHGLPTKPRVTRALGHGDYLVEGMKFN</Hsp_hseq>
+      <Hsp_midline>L  CM FAR P+ LDYSRT+AS  G YRA+I P GD+IP+ +L  WT+ + TA G PVDSA I VD GMPQHGHGLPT+PR  R +  G+YLVEGM+FN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_025410885.1|</Hit_id>
+  <Hit_def>FixH family protein [Gemmatirosa kalamazoonesis] &gt;gb|AHG89383.1| auxin-binding protein [Gemmatirosa kalamazoonesis]</Hit_def>
+  <Hit_accession>WP_025410885</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>4.63498e-36</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LAACMRFARAPQALDYSRTQASAAGVYRASIQPVGDSIPRNRLHSWTVTLATATGIPVDSARIEVDGGMPQHGHGLPTRPRA-RQVAAGEYLVEGMRFN</Hsp_qseq>
+      <Hsp_hseq>LTGCMLFARPPKDLDYSRTRASEGGRYRATIHPQGDTIPQGKLQRWTLHVETVAGAPVDSAAITVDGGMPQHGHGLPTKPRVTRALGHGDHVVEGMKFN</Hsp_hseq>
+      <Hsp_midline>L  CM FAR P+ LDYSRT+AS  G YRA+I P GD+IP+ +L  WT+ + T  G PVDSA I VDGGMPQHGHGLPT+PR  R +  G+++VEGM+FN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|PYP77052.1|</Hit_id>
+  <Hit_def>Auxin-binding protein [Gemmatimonadetes bacterium]</Hit_def>
+  <Hit_accession>PYP77052</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>1.27958e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>MRFARAPQALDYSRTQASAAGVYRASIQPVGDSIPRNRLHSWTVTLATATGIPVDSARIEVDGGMPQHGHGLPTRPRA-RQVAAGEYLVEGMRFN</Hsp_qseq>
+      <Hsp_hseq>MLFSKPPADLDYSRTRTSEARRYKATIRPEGDSIPKGKLQRWTLHLETANGTPVDLCSVTVDGGMPQHGHGLPTKPRVTRRLGNGDHLVEGMKFN</Hsp_hseq>
+      <Hsp_midline>M F++ P  LDYSRT+ S A  Y+A+I+P GDSIP+ +L  WT+ L TA G PVD   + VDGGMPQHGHGLPT+PR  R++  G++LVEGM+FN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|ODU35648.1|</Hit_id>
+  <Hit_def>hypothetical protein ABS97_04580 [Xanthomonadaceae bacterium SCN 69-320] &gt;gb|ODV22893.1| hypothetical protein ABT27_00035 [Xanthomonadaceae bacterium SCN 69-25] &gt;gb|OJY96795.1| hypothetical protein BGP24_16010 [Xanthomonadales bacterium 69-70]</Hit_def>
+  <Hit_accession>ODU35648</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>9.85057e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LAACMRFARAPQALDYSRTQASAAGVYRASIQPVGDSIPRNRLHSWTVTLATATGIPVDSARIEVDGGMPQHGHGLPTRPRARQ-VAAGEYLVEGMRFN</Hsp_qseq>
+      <Hsp_hseq>FAGCTMLTPAPKDLDFSTSRSGERGIYRATIQPDASPIPLHRIHSWTVELKDVAGRPVDAAHIEVDGDMPQHRHGLPTRPRVTEALGDGRYRVEGLKFH</Hsp_hseq>
+      <Hsp_midline> A C     AP+ LD+S +++   G+YRA+IQP    IP +R+HSWTV L    G PVD+A IEVDG MPQH HGLPTRPR  + +  G Y VEG++F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_037279939.1|</Hit_id>
+  <Hit_def>FixH family protein [Rubellimicrobium mesophilum] &gt;gb|EYD74270.1| auxin-binding protein [Rubellimicrobium mesophilum DSM 19309]</Hit_def>
+  <Hit_accession>WP_037279939</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>2.76805e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>RAPQALDYSRTQASAAGVYRASIQPVGDSIPRNRLHSWTVTLATATGIPVDSARIEVDGGMPQHGHGLPTRPRARQ-VAAGEYLVEGMRFN</Hsp_qseq>
+      <Hsp_hseq>RVPSDLDLSREKATEAGLYMAAVAPVEEPVTVGPMHAWTVTLTDRDGAPLDGARITVDGGMPQHGHGLPTSPAVTQDLGGGRYLIEGMKFN</Hsp_hseq>
+      <Hsp_midline>R P  LD SR +A+ AG+Y A++ PV + +    +H+WTVTL    G P+D ARI VDGGMPQHGHGLPT P   Q +  G YL+EGM+FN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|PTM89125.1|</Hit_id>
+  <Hit_def>YtkA-like protein [Mycoplana dimorpha]</Hit_def>
+  <Hit_accession>PTM89125</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.99</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>5.41277e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>AC--MRFARAPQALDYSRTQASAAGVYRASIQPVGDSIPRNRLHSWTVTLATATGIPVDSARIEVDGGMPQHGHGLPTRPRA-RQVAAGEYLVEGMRFN</Hsp_qseq>
+      <Hsp_hseq>ACTAMMMMSPSKDLDLALSKLSAGGIYRAAIHANIEPVTVGRMHSWTVSLNTATGAPVEGASITVDGGMPQHGHGLPTVPKVTKYLGDGRYLVEGMKFN</Hsp_hseq>
+      <Hsp_midline>AC  M      + LD + ++ SA G+YRA+I    + +   R+HSWTV+L TATG PV+ A I VDGGMPQHGHGLPT P+  + +  G YLVEGM+FN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_108004789.1|</Hit_id>
+  <Hit_def>FixH family protein [Mycoplana dimorpha]</Hit_def>
+  <Hit_accession>WP_108004789</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>5.52931e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>MRFARAPQALDYSRTQASAAGVYRASIQPVGDSIPRNRLHSWTVTLATATGIPVDSARIEVDGGMPQHGHGLPTRPRA-RQVAAGEYLVEGMRFN</Hsp_qseq>
+      <Hsp_hseq>MMMMSPSKDLDLALSKLSAGGIYRAAIHANIEPVTVGRMHSWTVSLNTATGAPVEGASITVDGGMPQHGHGLPTVPKVTKYLGDGRYLVEGMKFN</Hsp_hseq>
+      <Hsp_midline>M      + LD + ++ SA G+YRA+I    + +   R+HSWTV+L TATG PV+ A I VDGGMPQHGHGLPT P+  + +  G YLVEGM+FN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_017876329.1|</Hit_id>
+  <Hit_def>FixH family protein [Janthinobacterium sp. CG3]</Hit_def>
+  <Hit_accession>WP_017876329</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>1.25135e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LAACMRFARAPQALDYSRTQASAAGVYRASIQPVGDSIPRNRLHSWTVTLATATGIPVDSARIEVDGGMPQHGHGLPTRPRA-RQVAAGEYLVEGMRFN</Hsp_qseq>
+      <Hsp_hseq>LSAC---STPPAGLDLALTRPSAQHKYVVTVNPLLDSVAINQLHSWQIKLATPDGAPVTQARFGVDGGMPQHGHGLPTRPRVTRELGEGRYLLEGMKFS</Hsp_hseq>
+      <Hsp_midline>L+AC   +  P  LD + T+ SA   Y  ++ P+ DS+  N+LHSW + LAT  G PV  AR  VDGGMPQHGHGLPTRPR  R++  G YL+EGM+F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_115384027.1|</Hit_id>
+  <Hit_def>FixH family protein [Jannaschia sp. 12N15] &gt;gb|TFL16560.1| Auxin-binding protein [Jannaschia sp. 12N15]</Hit_def>
+  <Hit_accession>WP_115384027</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>1.30059e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>FARA-PQALDYSRTQASAAGVYRASIQPVGDSIPRNRLHSWTVTLATATGIPVDSARIEVDGGMPQHGHGLPTRPRA-RQVAAGEYLVEGMRFN</Hsp_qseq>
+      <Hsp_hseq>FSRSVPSDLDLAMSKATASGLYLAALAPVTEPVTVGPMHSWTVSLTDAAGAPIEAASISVDGGMPQHGHGLPTAPAVTRSIGKGQFLIEGMKFN</Hsp_hseq>
+      <Hsp_midline>F+R+ P  LD + ++A+A+G+Y A++ PV + +    +HSWTV+L  A G P+++A I VDGGMPQHGHGLPT P   R +  G++L+EGM+FN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>285796324</Statistics_db-num>
+      <Statistics_db-len>102865278292</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
